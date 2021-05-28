@@ -1,511 +1,169 @@
 <mxfile>
     <diagram id="Bkmkow826LwfUad28RLH" name="Page-1">
-        <mxGraphModel dx="1560" dy="3730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="780" dy="2415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="28" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="-840" width="1070" height="840" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="Home" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="28">
-                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="28">
-                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="28">
-                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Are you Activated?&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="28">
-                    <mxGeometry x="160" y="310" width="250" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="Take Test" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="28">
-                    <mxGeometry x="165" y="510" width="190" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="&lt;b&gt;Zooty Water&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="28">
-                    <mxGeometry x="655" y="510" width="190" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="28">
-                    <mxGeometry y="640" width="1060" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="28">
-                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="28">
-                    <mxGeometry x="720" y="660" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="28">
-                    <mxGeometry x="670" y="690" width="280" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="28">
-                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28">
-                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="28">
-                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="42" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28">
-                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28">
-                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="28">
-                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut a qui officia deserunt mollit anim id est laborum&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="28">
-                    <mxGeometry x="130" y="340" width="280" height="140" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="28">
-                    <mxGeometry x="685" y="260" width="130" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="28">
-                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="28">
-                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="28">
-                    <mxGeometry x="700" y="787.3499999999999" width="30" height="31.4" as="geometry"/>
-                </mxCell>
-                <mxCell id="50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="28">
-                    <mxGeometry x="750" y="787.3499999999999" width="35" height="35" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="28">
-                    <mxGeometry x="807" y="785.8499999999999" width="38" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="28">
-                    <mxGeometry x="870" y="787.35" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="28">
-                    <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="960" width="1080" height="870" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="Shop/Show" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="54">
-                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="54">
-                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="54">
-                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" value="&lt;b&gt;Add to Cart&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="54">
-                    <mxGeometry x="410" y="530" width="190" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="59" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="54">
-                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="60" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="54">
-                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="61" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="54">
-                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="54">
-                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="63" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="54">
-                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="64" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="54">
-                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="65" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="54">
-                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="54">
-                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="67" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="54">
-                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="68" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="54">
-                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="69" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="54">
-                    <mxGeometry x="440" y="255" width="130" height="200" as="geometry"/>
-                </mxCell>
-                <mxCell id="70" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="54">
-                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="54">
-                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
-                </mxCell>
-                <mxCell id="72" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="54">
-                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
-                </mxCell>
-                <mxCell id="73" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="54">
-                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
-                </mxCell>
-                <mxCell id="74" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="54">
-                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="75" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="54">
-                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="76" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="54">
-                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="77" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#6C8EBF;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;rotation=-180;" vertex="1" parent="54">
-                    <mxGeometry x="290" y="320" width="100" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="78" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#6C8EBF;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;" vertex="1" parent="54">
-                    <mxGeometry x="620" y="320" width="100" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="79" value="&lt;font style=&quot;font-size: 24px&quot;&gt;16oz.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="54">
-                    <mxGeometry x="405" y="470" width="200" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="80" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="90" width="1080" height="830" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="About" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="80">
-                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="80">
-                    <mxGeometry x="138" y="60" width="250" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="80">
-                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 24px&quot;&gt;About&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=center;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="80">
-                    <mxGeometry x="475" y="340" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="Pure Energy" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="80">
-                    <mxGeometry x="124.25" y="600" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" value="Wealth" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="80">
-                    <mxGeometry x="800" y="600" width="160" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="80">
-                    <mxGeometry x="10" y="647.5" width="1070" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="80">
-                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="89" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="80">
-                    <mxGeometry x="710" y="667.5" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="80">
-                    <mxGeometry x="670" y="688.05" width="240" height="132.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="80">
-                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="80">
-                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="80">
-                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="94" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="80">
-                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="95" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="80">
-                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="80">
-                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="97" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="80">
-                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
-                </mxCell>
-                <mxCell id="98" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="80">
-                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
-                </mxCell>
-                <mxCell id="99" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="80">
-                    <mxGeometry x="680" y="785.55" width="30" height="31.4" as="geometry"/>
-                </mxCell>
-                <mxCell id="100" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="80">
-                    <mxGeometry x="730" y="785.55" width="35" height="35" as="geometry"/>
-                </mxCell>
-                <mxCell id="101" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="80">
-                    <mxGeometry x="776" y="784.05" width="38" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="80">
-                    <mxGeometry x="828" y="785.55" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="103" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="80">
-                    <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="104" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="80">
-                    <mxGeometry x="123.25" y="390" width="146.75" height="190" as="geometry"/>
-                </mxCell>
-                <mxCell id="105" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=11;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.video_conversation;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;" vertex="1" parent="80">
-                    <mxGeometry x="490" y="220" width="130" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="106" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Pure Energy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="80">
-                    <mxGeometry x="134.25" y="420" width="130" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="107" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;opacity=20;" vertex="1" parent="80">
-                    <mxGeometry x="10" y="320" width="1160" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="108" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="80">
-                    <mxGeometry x="490" y="390" width="140" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="109" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="80">
-                    <mxGeometry x="800" y="390" width="142" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="110" value="Health" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="80">
-                    <mxGeometry x="500" y="600" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="111" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Health&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;strokeWidth=1;" vertex="1" parent="80">
-                    <mxGeometry x="495" y="430" width="130" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="112" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Wealth&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;" vertex="1" parent="80">
-                    <mxGeometry x="850" y="450" width="70" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="113" value="Autoloop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="330" width="40" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="114" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
-                    <mxGeometry x="10" y="1870" width="1105" height="860" as="geometry"/>
-                </mxCell>
-                <mxCell id="115" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="114">
-                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="116" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="114">
-                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="117" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="114">
-                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="118" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="114">
-                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="119" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="114">
-                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="114">
-                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="121" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="114">
-                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="122" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="114">
-                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="123" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="114">
-                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="124" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="114">
-                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="125" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="114">
-                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="126" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="114">
-                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="127" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="114">
-                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="128" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="114">
-                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
-                </mxCell>
-                <mxCell id="129" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="114">
-                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
-                </mxCell>
-                <mxCell id="130" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="114">
-                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
-                </mxCell>
-                <mxCell id="131" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
-                </mxCell>
-                <mxCell id="132" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
-                </mxCell>
-                <mxCell id="133" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="134" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="135" value="&lt;h1&gt;NewsLetter&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="114">
-                    <mxGeometry x="415" y="330" width="225" height="140" as="geometry"/>
-                </mxCell>
-                <mxCell id="136" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Contact&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="114">
-                    <mxGeometry x="415" y="180" width="150" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="137" value="&lt;h1&gt;Orders&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="114">
-                    <mxGeometry x="750" y="330" width="250" height="190" as="geometry"/>
-                </mxCell>
-                <mxCell id="138" value="&lt;h1&gt;General Inquires&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="114">
-                    <mxGeometry x="60" y="330" width="230" height="170" as="geometry"/>
-                </mxCell>
-                <mxCell id="139" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="123.25" y="480" width="96.75" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="140" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="458" y="480" width="95" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="141" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="114">
-                    <mxGeometry x="775" y="480" width="95" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="142" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                <mxCell id="142" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" parent="1" vertex="1">
                     <mxGeometry x="10" y="2810" width="1110" height="860" as="geometry"/>
                 </mxCell>
-                <mxCell id="143" value="Community" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="142">
+                <mxCell id="143" value="Community" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="142" vertex="1">
                     <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="142">
+                <mxCell id="144" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="142" vertex="1">
                     <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="145" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="142">
+                <mxCell id="145" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" parent="142" vertex="1">
                     <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="146" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="142">
+                <mxCell id="146" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="142" vertex="1">
                     <mxGeometry y="640" width="1050" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="147" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="142">
+                <mxCell id="147" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" parent="142" vertex="1">
                     <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="148" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="142">
+                <mxCell id="148" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" parent="142" vertex="1">
                     <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="142">
+                <mxCell id="149" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" parent="142" vertex="1">
                     <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="150" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="142">
+                <mxCell id="150" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" parent="142" vertex="1">
                     <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="151" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="142">
+                <mxCell id="151" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="142" vertex="1">
                     <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="142">
+                <mxCell id="152" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="142" vertex="1">
                     <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="142">
+                <mxCell id="153" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="142" vertex="1">
                     <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="142">
+                <mxCell id="154" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="142" vertex="1">
                     <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="155" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="142">
+                <mxCell id="155" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="142" vertex="1">
                     <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="156" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="142">
+                <mxCell id="156" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" parent="142" vertex="1">
                     <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="157" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="142">
+                <mxCell id="157" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" parent="142" vertex="1">
                     <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="142">
+                <mxCell id="158" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" parent="142" vertex="1">
                     <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
                 </mxCell>
-                <mxCell id="159" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="142">
+                <mxCell id="159" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" parent="142" vertex="1">
                     <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="160" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="142">
+                <mxCell id="160" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" parent="142" vertex="1">
                     <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="161" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="142">
+                <mxCell id="161" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" parent="142" vertex="1">
                     <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="142">
+                <mxCell id="162" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="142" vertex="1">
                     <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="163" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Community&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="142">
+                <mxCell id="163" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Community&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" parent="142" vertex="1">
                     <mxGeometry x="450" y="200" width="170" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" value="&lt;h1&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;Activate Your Community&lt;/font&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="142">
+                <mxCell id="164" value="&lt;h1&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;Activate Your Community&lt;/font&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" parent="142" vertex="1">
                     <mxGeometry x="40" y="310" width="260" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="165" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="142">
+                <mxCell id="165" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" parent="142" vertex="1">
                     <mxGeometry x="442.5" y="282.5" width="185" height="185" as="geometry"/>
                 </mxCell>
-                <mxCell id="166" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;direction=west;" vertex="1" parent="142">
+                <mxCell id="166" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;direction=west;" parent="142" vertex="1">
                     <mxGeometry x="315" y="330" width="100" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="167" value="&lt;h1&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Contribute&lt;/span&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="142">
+                <mxCell id="167" value="&lt;h1&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Contribute&lt;/span&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" parent="142" vertex="1">
                     <mxGeometry x="785" y="300" width="260" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="168" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="1">
+                <mxCell id="168" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" parent="1" vertex="1">
                     <mxGeometry x="700" y="3140" width="100" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="169" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                <mxCell id="169" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" parent="1" vertex="1">
                     <mxGeometry x="10" y="3790" width="1100" height="850" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="169">
+                <mxCell id="170" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="169" vertex="1">
                     <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="169">
+                <mxCell id="171" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="169" vertex="1">
                     <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="172" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="169">
+                <mxCell id="172" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" parent="169" vertex="1">
                     <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="173" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Are you Activated?&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="169">
+                <mxCell id="173" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Are you Activated?&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" parent="169" vertex="1">
                     <mxGeometry x="160" y="310" width="250" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="174" value="Take Test" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="169">
+                <mxCell id="174" value="Take Test" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" parent="169" vertex="1">
                     <mxGeometry x="165" y="510" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="175" value="&lt;b&gt;Zooty Water&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="169">
+                <mxCell id="175" value="&lt;b&gt;Zooty Water&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" parent="169" vertex="1">
                     <mxGeometry x="655" y="510" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="176" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="169">
+                <mxCell id="176" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="169" vertex="1">
                     <mxGeometry y="640" width="1060" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="177" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="169">
+                <mxCell id="177" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" parent="169" vertex="1">
                     <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="169">
+                <mxCell id="178" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" parent="169" vertex="1">
                     <mxGeometry x="720" y="660" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="179" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="169">
+                <mxCell id="179" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" parent="169" vertex="1">
                     <mxGeometry x="670" y="690" width="280" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="169">
+                <mxCell id="180" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" parent="169" vertex="1">
                     <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="181" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="169">
+                <mxCell id="181" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="169" vertex="1">
                     <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="182" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="169">
+                <mxCell id="182" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="169" vertex="1">
                     <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="183" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="169">
+                <mxCell id="183" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="169" vertex="1">
                     <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="184" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="169">
+                <mxCell id="184" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="169" vertex="1">
                     <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="185" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="169">
+                <mxCell id="185" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="169" vertex="1">
                     <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut a qui officia deserunt mollit anim id est laborum&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="169">
+                <mxCell id="186" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut a qui officia deserunt mollit anim id est laborum&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="169" vertex="1">
                     <mxGeometry x="130" y="340" width="280" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="169">
+                <mxCell id="187" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" parent="169" vertex="1">
                     <mxGeometry x="685" y="260" width="130" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="169">
+                <mxCell id="188" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" parent="169" vertex="1">
                     <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="169">
+                <mxCell id="189" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" parent="169" vertex="1">
                     <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="169">
+                <mxCell id="190" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" parent="169" vertex="1">
                     <mxGeometry x="700" y="787.3499999999999" width="30" height="31.4" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="169">
+                <mxCell id="191" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" parent="169" vertex="1">
                     <mxGeometry x="750" y="787.3499999999999" width="35" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="169">
+                <mxCell id="192" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" parent="169" vertex="1">
                     <mxGeometry x="807" y="785.8499999999999" width="38" height="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="169">
+                <mxCell id="193" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" parent="169" vertex="1">
                     <mxGeometry x="870" y="787.35" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="194" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="169">
+                <mxCell id="194" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="169" vertex="1">
                     <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="195" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="195" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="410" y="4310" as="sourcePoint"/>
                         <mxPoint x="460" y="4260" as="targetPoint"/>
@@ -514,8 +172,680 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="196" value="IMG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="1">
+                <mxCell id="196" value="IMG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" parent="1" vertex="1">
                     <mxGeometry x="505" y="3152.5" width="90" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="283" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="2810" width="1110" height="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" value="Community" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="283">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="283">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="286" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="283">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="283">
+                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="283">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="289" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="283">
+                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="290" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="283">
+                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="291" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="283">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="292" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="283">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="293" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="283">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="294" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="283">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="295" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="283">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="283">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="283">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="298" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="283">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="283">
+                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="283">
+                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="283">
+                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="283">
+                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="283">
+                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Community&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="283">
+                    <mxGeometry x="450" y="200" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="&lt;h1&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;Activate Your Community&lt;/font&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="283">
+                    <mxGeometry x="40" y="310" width="260" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="283">
+                    <mxGeometry x="442.5" y="282.5" width="185" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;direction=west;" vertex="1" parent="283">
+                    <mxGeometry x="315" y="330" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" value="&lt;h1&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Contribute&lt;/span&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="283">
+                    <mxGeometry x="785" y="300" width="260" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="3140" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="310" value="IMG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="1">
+                    <mxGeometry x="505" y="3152.5" width="90" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="4675" width="1105" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="311">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="313" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="311">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="314" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="311">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="311">
+                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="311">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="317" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="311">
+                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="318" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="311">
+                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="311">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="311">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="311">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="311">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="311">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="311">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="311">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="311">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="311">
+                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="&lt;h1&gt;NewsLetter&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="311">
+                    <mxGeometry x="415" y="330" width="225" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Contact&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="311">
+                    <mxGeometry x="415" y="180" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="&lt;h1&gt;Orders&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="311">
+                    <mxGeometry x="750" y="330" width="250" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="&lt;h1&gt;General Inquires&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="311">
+                    <mxGeometry x="60" y="330" width="230" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="123.25" y="480" width="96.75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="458" y="480" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="338" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="311">
+                    <mxGeometry x="775" y="480" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="-840" width="1070" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" value="Home" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="365">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="365">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="368" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="365">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Are you Activated?&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="365">
+                    <mxGeometry x="160" y="310" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="370" value="Take Test" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="365">
+                    <mxGeometry x="165" y="510" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="371" value="&lt;b&gt;Zooty Water&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="365">
+                    <mxGeometry x="655" y="510" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="372" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="365">
+                    <mxGeometry y="640" width="1060" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="373" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="365">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="374" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="365">
+                    <mxGeometry x="720" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="375" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="365">
+                    <mxGeometry x="670" y="690" width="280" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="376" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="365">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="377" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="365">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="378" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="365">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="379" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="365">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="380" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="365">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="381" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="365">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="382" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut a qui officia deserunt mollit anim id est laborum&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="365">
+                    <mxGeometry x="130" y="340" width="280" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="383" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="365">
+                    <mxGeometry x="685" y="260" width="130" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="384" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="365">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="385" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="365">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="386" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="365">
+                    <mxGeometry x="700" y="787.3499999999999" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="387" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="365">
+                    <mxGeometry x="750" y="787.3499999999999" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="365">
+                    <mxGeometry x="807" y="785.8499999999999" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="389" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="365">
+                    <mxGeometry x="870" y="787.35" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="390" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="365">
+                    <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="391" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="960" width="1080" height="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="Shop/Show" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="391">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="391">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="391">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" value="&lt;b&gt;Add to Cart&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="391">
+                    <mxGeometry x="410" y="530" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="396" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="391">
+                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="391">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="391">
+                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="391">
+                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="391">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="401" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="391">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="391">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="391">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="391">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="391">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="391">
+                    <mxGeometry x="440" y="255" width="130" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="391">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="408" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="391">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="409" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="391">
+                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="391">
+                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="391">
+                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="412" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="391">
+                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="413" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="391">
+                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="414" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#6C8EBF;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;rotation=-180;" vertex="1" parent="391">
+                    <mxGeometry x="290" y="320" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#6C8EBF;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;" vertex="1" parent="391">
+                    <mxGeometry x="620" y="320" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="416" value="&lt;font style=&quot;font-size: 24px&quot;&gt;16oz.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="391">
+                    <mxGeometry x="405" y="470" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="90" width="1080" height="830" as="geometry"/>
+                </mxCell>
+                <mxCell id="418" value="About" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="417">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="417">
+                    <mxGeometry x="138" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="420" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="417">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 24px&quot;&gt;About&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=center;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="417">
+                    <mxGeometry x="475" y="340" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="422" value="Pure Energy" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="417">
+                    <mxGeometry x="124.25" y="600" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="Wealth" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="417">
+                    <mxGeometry x="800" y="600" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="417">
+                    <mxGeometry x="10" y="647.5" width="1070" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="425" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="417">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="426" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="417">
+                    <mxGeometry x="710" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="427" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="417">
+                    <mxGeometry x="670" y="688.05" width="240" height="132.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="428" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="417">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="417">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="417">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="417">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="432" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="417">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="417">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="434" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="417">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="435" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="417">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="436" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="417">
+                    <mxGeometry x="680" y="785.55" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="437" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="417">
+                    <mxGeometry x="730" y="785.55" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="438" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="417">
+                    <mxGeometry x="776" y="784.05" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="417">
+                    <mxGeometry x="828" y="785.55" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="417">
+                    <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="441" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="417">
+                    <mxGeometry x="123.25" y="390" width="146.75" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=11;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.video_conversation;fillColor=#4F95FF;gradientColor=#ffffff;opacity=40;" vertex="1" parent="417">
+                    <mxGeometry x="490" y="220" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Pure Energy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="417">
+                    <mxGeometry x="134.25" y="420" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="444" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;opacity=20;" vertex="1" parent="417">
+                    <mxGeometry x="10" y="320" width="1160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="417">
+                    <mxGeometry x="490" y="390" width="140" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="446" value="" style="shape=card;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6C8EBF;strokeWidth=3;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="417">
+                    <mxGeometry x="800" y="390" width="142" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" value="Health" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="417">
+                    <mxGeometry x="500" y="600" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Health&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;strokeWidth=1;" vertex="1" parent="417">
+                    <mxGeometry x="495" y="430" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="449" value="&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Wealth&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;" vertex="1" parent="417">
+                    <mxGeometry x="850" y="450" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="Autoloop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=40;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="330" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="451" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="2810" width="1110" height="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" value="Community" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="451">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="451">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="451">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="455" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="451">
+                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="451">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="457" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="451">
+                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="458" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="451">
+                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="459" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="451">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="460" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="451">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="451">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="462" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="451">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="463" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="451">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="464" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="451">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="465" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="451">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="466" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="451">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="467" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="451">
+                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="468" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="451">
+                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="469" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="451">
+                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="470" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="451">
+                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="471" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="451">
+                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="472" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Community&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="451">
+                    <mxGeometry x="450" y="200" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="473" value="&lt;h1&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;Activate Your Community&lt;/font&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="451">
+                    <mxGeometry x="40" y="310" width="260" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="474" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="451">
+                    <mxGeometry x="442.5" y="282.5" width="185" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="475" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;direction=west;" vertex="1" parent="451">
+                    <mxGeometry x="315" y="330" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="476" value="&lt;h1&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Contribute&lt;/span&gt;&lt;span style=&quot;font-size: 23px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="451">
+                    <mxGeometry x="785" y="300" width="260" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="477" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="3140" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="478" value="IMG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="1">
+                    <mxGeometry x="505" y="3152.5" width="90" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="479" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="4675" width="1105" height="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="480" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="479">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="481" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="479">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="482" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="479">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="483" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="479">
+                    <mxGeometry y="640" width="1050" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="484" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="479">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="485" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="479">
+                    <mxGeometry x="650" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="486" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="479">
+                    <mxGeometry x="610" y="690" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="487" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="479">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="488" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="479">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="489" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="479">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="490" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="479">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="491" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="479">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="492" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="479">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="493" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="479">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="494" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="479">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="495" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="479">
+                    <mxGeometry x="620" y="804.3" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="496" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="670" y="805" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="497" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="730" y="804.3" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="498" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="790" y="805" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="499" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="325" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="500" value="&lt;h1&gt;NewsLetter&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="479">
+                    <mxGeometry x="415" y="330" width="225" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="501" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Contact&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=20;" vertex="1" parent="479">
+                    <mxGeometry x="415" y="180" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="502" value="&lt;h1&gt;Orders&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="479">
+                    <mxGeometry x="750" y="330" width="250" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="503" value="&lt;h1&gt;General Inquires&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;opacity=20;" vertex="1" parent="479">
+                    <mxGeometry x="60" y="330" width="230" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="504" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="123.25" y="480" width="96.75" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="505" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="458" y="480" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="506" value="Contact" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="479">
+                    <mxGeometry x="775" y="480" width="95" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="507" value="" style="strokeWidth=1;shadow=1;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;gradientDirection=north;opacity=50;strokeColor=#6C8EBF;fillColor=#4F95FF;" vertex="1" parent="1">
+                    <mxGeometry y="1860" width="1100" height="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="508" value="Order Page" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="507">
+                    <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="509" value="&lt;font color=&quot;#000000&quot;&gt;https://www.Zootywater.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="507">
+                    <mxGeometry x="130" y="60" width="250" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="510" value="&lt;font style=&quot;font-size: 25px&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;Zooty Water&lt;/b&gt;&lt;/font&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="507">
+                    <mxGeometry x="20" y="120" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="511" value="&lt;b&gt;Update Order&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="507">
+                    <mxGeometry x="845" y="470" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="512" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.line;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="507">
+                    <mxGeometry y="640" width="1060" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="513" value="Subscribe" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="507">
+                    <mxGeometry x="170" y="667.5" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="514" value="Stay in Touch" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=15;fontFamily=Verdana" vertex="1" parent="507">
+                    <mxGeometry x="720" y="660" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="515" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;ZootyWorldLLC&lt;br&gt;activatedoh@zootyworld.com&lt;br&gt;&lt;br&gt;&lt;br&gt;Follow us on Social Media&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=left;verticalAlign=top;opacity=20;fillColor=#4F95FF;" vertex="1" parent="507">
+                    <mxGeometry x="670" y="690" width="280" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="516" value="Stay Connected with Zooty Water&amp;nbsp;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=12;fontFamily=Verdana;whiteSpace=wrap;" vertex="1" parent="507">
+                    <mxGeometry x="140" y="705" width="470" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="517" value="&lt;b&gt;About Zooty Water&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="507">
+                    <mxGeometry x="520" y="130" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="518" value="Shop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="507">
+                    <mxGeometry x="600" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="519" value="&lt;b&gt;Contact&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="507">
+                    <mxGeometry x="710" y="130" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="520" value="&lt;b&gt;Community&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="507">
+                    <mxGeometry x="790" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="521" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="507">
+                    <mxGeometry x="1000" y="125" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="522" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#0D00BF;fillColor=#1212FC;opacity=50;" vertex="1" parent="507">
+                    <mxGeometry x="870" y="220" width="130" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="523" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_03-128.png" vertex="1" parent="507">
+                    <mxGeometry x="20" y="705" width="95" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="524" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Email Address&lt;/font&gt;" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=left;" vertex="1" parent="507">
+                    <mxGeometry x="123.25" y="755" width="176.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="525" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.facebook;fillColor=#6294E4;gradientColor=#1A2665;strokeWidth=12;" vertex="1" parent="507">
+                    <mxGeometry x="700" y="787.3499999999999" width="30" height="31.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="526" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_instagram-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="507">
+                    <mxGeometry x="750" y="787.3499999999999" width="35" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="527" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="507">
+                    <mxGeometry x="807" y="785.8499999999999" width="38" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/science-technology-outline/91/Science__Technology_20-128.png;strokeWidth=12;gradientColor=none;" vertex="1" parent="507">
+                    <mxGeometry x="870" y="787.35" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="529" value="Sign Up" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="507">
+                    <mxGeometry x="330" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="530" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#4F95FF;gradientColor=#ffffff;opacity=20;" vertex="1" parent="507">
+                    <mxGeometry x="410" y="240" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="&lt;b&gt;Purchase&lt;/b&gt;" style="strokeWidth=3;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;mainText=;buttonStyle=round;fontSize=17;fontStyle=0;fillColor=none;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;opacity=70;" vertex="1" parent="507">
+                    <mxGeometry x="430" y="520" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="532" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;Check Out and Payment Info&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="507">
+                    <mxGeometry x="410" y="280" width="220" height="130" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
