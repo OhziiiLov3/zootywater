@@ -1,10 +1,11 @@
 from django.db import models
 from datetime import date
 from django.contrib.auth.models import User
+from django.views.generic.base import TemplateView
 
 # Create your models here.
 
-class CustomerProfile(models.Model):
+class Customer(models.Model):
 
     name = models.CharField(max_length=150)
     email = models.CharField(max_length=200)
@@ -17,3 +18,5 @@ class CustomerProfile(models.Model):
 
     class Meta:
         ordering = ['name']
+
+
