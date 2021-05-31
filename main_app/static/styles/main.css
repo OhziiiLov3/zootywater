@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +6,8 @@
 }
 body{
 
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right top, #35AEEB, #1327dfd5);
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right top, #35aeeba2, #1327dfce);
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
@@ -21,8 +21,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(1.5px);
-
 }
  a{
     text-decoration: none;
@@ -82,6 +80,27 @@ main{
   
    
 }
+
+.navbar_logo {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbar_img {
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7)
+
+}
+
+
 
 .webtitle{
     height: auto;
@@ -143,8 +162,7 @@ main{
     color:rgba(255, 255, 255, 0.6);
     font-weight: 800;
     font-size: 2em;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 5 px 15px rgba(0,0,0,0.2)
+    
 }
 
 .card-container{ 
@@ -191,7 +209,7 @@ main{
     opacity: 1;
 }
 
-.card-container .card .card-content h3{
+.card-container .card:hover .card-content h3{
     position: absolute;
     top: -50px;
     right: 30px;
@@ -205,6 +223,15 @@ main{
     font-size: 1em;
     color: #ffff;
     font-weight: 300;
+
+}
+.card-container .card .card-content  h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.7);
+    
 
 }
 
