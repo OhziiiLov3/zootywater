@@ -153,9 +153,9 @@ main{
 }
 /* About Page And Glass Cards */
 
-.About-title h1{
-    margin-bottom: 500px;
-    margin-left: 80px;
+.card-container .About-title h1{
+    margin-top: -250px;
+    margin-left: 200px; 
     align-items: center;
     justify-content: flex;
     color: white;
@@ -166,7 +166,7 @@ main{
 }
 
 .card-container{ 
-    margin-top: -680px;
+    margin-top: -600px;
     margin-bottom: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -182,7 +182,7 @@ main{
     width: 250px;
     height: 350px;
     margin: 30px;
-    right: 120px;
+    right: 160px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
     border-radius: 15px;
     background: rgba(255,255,255, .1);
