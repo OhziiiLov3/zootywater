@@ -222,6 +222,13 @@ main{
     margin-top: 15px;
     font-size: 1em;
     color: #ffff;
+    font-weight: 500;
+
+}
+.card-container .card:hover .card-content ul{
+    margin-top: 15px;
+    font-size: 1em;
+    color: #ffff;
     font-weight: 300;
 
 }
@@ -282,3 +289,31 @@ main{
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
  }
+
+ .profile_logo {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.profile_img {
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7)
+
+}
+
+
+#battery{
+    size: 100px;
+    height: 50px;
+    width: 50px;
+    color: rgba(255,255,255, 0.7);
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+}

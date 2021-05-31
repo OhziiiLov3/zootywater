@@ -2,15 +2,27 @@
 <div class="card-container">
     <div class="About-title">
         <h1>User Profile</h1>
+        
     </div>
     <div class="card">
         <div class="card-content">
             <h3>{{profile.name}}</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ex vitae repellendus possimus maiores.
-                Aut, eligendi. </p>
+            <ul>
+                {% if is_subscribe %}
+                <i id="battery" class="fas fa-battery-bolt"></i>
+                </span>
+                </div>
+                <li>You are Subscribed!</li>
+                {% else %}
+                <i id="battery" class="fas fa-bell-slash"></i>
+                <li>You are not Subscribed</li>
+                {% endif %}
+                <li>Email: {{profile.email}} </li>
+                <li>Join Date: {{profile.join_date}}</li>
 
-            <a href="/">update</a>
-
+            </ul>
+            <a href="{% url 'profile_update' profile.pk%}">update</a>
         </div>
     </div>
+   
     {% endblock %}

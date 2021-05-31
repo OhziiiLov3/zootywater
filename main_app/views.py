@@ -3,6 +3,7 @@ from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Customer
+from django.views.generic.edit import UpdateView
 
 # Create your views here.
 
@@ -15,9 +16,16 @@ class About(TemplateView):
 
 
 class CustomerProfile(TemplateView):
+
     template_name = "profile_detail.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["profile"] = Customer.objects.all()
+        context["profile"] = Customer.objects.get()
         return context
+
+class CustomerProfileUpdate(UpdateView):
+    model = Customer
+    fields = ['name', 'email', 'join_date', 'is_subscribe']
+    template_name = "profile_update.html"
+    success_url = "/profile/"
