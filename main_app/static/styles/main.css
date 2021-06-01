@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 * {
     margin: 0;
@@ -103,11 +104,14 @@ main{
 
 
 .webtitle{
-    height: auto;
+    height: 100%;
     width: 100%;
     justify-content: flex-start;
     margin: 0 10px 0 10px;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Squada One', cursive
 
+    
 }
 
 .navbar-item{
@@ -318,7 +322,7 @@ main{
     height: 150px;
     width: 150px;
     margin-top: -900px;
-    margin-right: -300px; 
+    margin-right: -250px; 
     align-items: center;
     margin-left: auto;
     border-radius: 50%;
@@ -457,25 +461,12 @@ main{
 
 .delete-button {
     color: red;
-    padding: 0px 12px 5px 12px;
+    padding: 5px 12px 5px 12px;
     display: flex;
     justify-content: flex-end;
     box-sizing: inherit;
     z-index: 50;
-    margin-right: -500px;
-}
-
-.delete-button h3 {
-    color: red;
-    padding: 0px 12px 5px 12px;
-    justify-content: flex-end;
-    box-sizing: inherit;
-    margin-right: -200px;
-    z-index: 50;
-    margin: 10px 10px 0 10px;
-    position: relative;
-    display: inline-block;
-    padding: 0 1.5em 0 1.5em;
+    margin-right: -600px;
     background: #ffff;
     background: rgba(255,255,255, 0.7);
     border-radius: 20px;
@@ -485,6 +476,18 @@ main{
     border-top: 1px solid rgba(255,255,255, 0.7);
     border-left: 1px solid rgba(255,255,255, 0.5);
     backdrop-filter: blur(5px);
+}
+
+.delete-button h3 {
+    color: red;
+    text-decoration: none;
+    padding: 0 1.8em 0 1.5em;
+    margin-right: -500px;
+    z-index: 50;
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+    padding: 0 1.5em 0 1.5em;
+    
 }
 
 .profilevideo{

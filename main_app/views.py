@@ -6,6 +6,8 @@ from .models import Customer
 from django.views.generic.edit import UpdateView, DeleteView
 
 
+
+
 # Create your views here.
 
 
@@ -22,7 +24,7 @@ class CustomerProfile(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["profile"] = Customer.objects.get()
+        context["profile"] = self.request.user.customer
         return context
 
 class CustomerProfileUpdate(UpdateView):
@@ -34,5 +36,5 @@ class CustomerProfileUpdate(UpdateView):
 class CustomerProfileDelete(DeleteView):
     model = Customer
     template_name = "profile_delete_confirmation.html"
-    success_url = "/profile/"
+    success_url = "/"
     

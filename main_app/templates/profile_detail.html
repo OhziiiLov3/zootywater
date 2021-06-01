@@ -29,15 +29,12 @@
     <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
     </div>
        <div>
-        <video class="profilevideo" width="400" height="300" autoplay loop controls muted>
+        <video class="profilevideo" width="200" height="300" autoplay loop controls muted>
             <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
         </video>
     </div>
-    <div class="delete-button">
-        <h3>Delete Profile</h3>
-    <a href="{% url 'profile_delete' profile.pk %}" class="button is-danger">
-    </a>
-    </div>
+ 
+    <a  class="delete-button" href="{% url 'profile_delete' profile.pk %}">Delete Profile</a>
  
 
    
