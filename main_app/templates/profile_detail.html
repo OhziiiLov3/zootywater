@@ -1,20 +1,27 @@
 {% extends 'base.html' %} {% block content %}
-<div class="card-container">
+
+
+    <a href="{% url 'profile_delete' profile.pk %}" class="button is-danger">
+        <span class="icon">
+            <i id="delete-button"class="fas fa-trash-alt"></i>
+        </span>
+    </a>
+
+<div class="profile-card-container">
     <div class="About-title">
         <h1>User Profile</h1>
         
     </div>
-    <div class="card">
-        <div class="card-content">
+    <div class="profile-card">
+        <div class="profile-card-content">
             <h3>{{profile.name}}</h3>
             <ul>
                 {% if is_subscribe %}
-                <i id="battery" class="fas fa-battery-bolt"></i>
-                </span>
+                <i id="bell" class="far fa-bell"></i>
                 </div>
                 <li>You are Subscribed!</li>
                 {% else %}
-                <i id="battery" class="fas fa-bell-slash"></i>
+                <i id="bell" class="fas fa-bell-slash"></i>
                 <li>You are not Subscribed</li>
                 {% endif %}
                 <li>Email: {{profile.email}} </li>

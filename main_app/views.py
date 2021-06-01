@@ -3,7 +3,8 @@ from django.views import View
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Customer
-from django.views.generic.edit import UpdateView
+from django.views.generic.edit import UpdateView, DeleteView
+
 
 # Create your views here.
 
@@ -29,3 +30,9 @@ class CustomerProfileUpdate(UpdateView):
     fields = ['name', 'email', 'join_date', 'is_subscribe']
     template_name = "profile_update.html"
     success_url = "/profile/"
+
+class CustomerProfileDelete(DeleteView):
+    model = Customer
+    template_name = "profile_delete_confirmation.html"
+    success_url = "/profile/"
+    
