@@ -28,14 +28,17 @@
     <div class="water-logo">
     <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
     </div>
+       <div>
+        <video class="profilevideo" width="400" height="300" autoplay loop controls>
+            <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
+        </video>
+    </div>
     <div class="delete-button">
-        <h2>Delete Profile</h2>
+        <h3>Delete Profile</h3>
     <a href="{% url 'profile_delete' profile.pk %}" class="button is-danger">
-        <span class="icon">
-            <i class="fas fa-trash-alt"></i>
-        </span>
     </a>
     </div>
+ 
 
    
     {% endblock %}
