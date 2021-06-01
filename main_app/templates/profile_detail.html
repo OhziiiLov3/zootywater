@@ -1,11 +1,5 @@
 {% extends 'base.html' %} {% block content %}
-
-
-    <a href="{% url 'profile_delete' profile.pk %}" class="button is-danger">
-        <span class="icon">
-            <i id="delete-button"class="fas fa-trash-alt"></i>
-        </span>
-    </a>
+{% load static %}
 
 <div class="profile-card-container">
     <div class="About-title">
@@ -31,5 +25,17 @@
             <a href="{% url 'profile_update' profile.pk%}">update</a>
         </div>
     </div>
+    <div class="water-logo">
+    <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
+    </div>
+    <div class="delete-button">
+        <h2>Delete Profile</h2>
+    <a href="{% url 'profile_delete' profile.pk %}" class="button is-danger">
+        <span class="icon">
+            <i class="fas fa-trash-alt"></i>
+        </span>
+    </a>
+    </div>
+
    
     {% endblock %}

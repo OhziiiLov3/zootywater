@@ -272,10 +272,10 @@ main{
 }
 
 .profile-card-container{ 
-    margin-top: -600px;
+    margin-top: -620px;
     margin-bottom: 250px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 420px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -288,6 +288,7 @@ main{
     width: 250px;
     height: 350px;
     margin: 30px;
+    margin-left: 80px;
     right: 160px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
     border-radius: 15px;
@@ -299,6 +300,30 @@ main{
     border-top: 1px solid rgba(255,255,255, 0.5);
     border-left: 1px solid rgba(255,255,255, 0.5);
     backdrop-filter: blur(5px);
+}
+
+
+ .water-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.water-img {
+    height: 200px;
+    width: 200px;
+    margin-top: -820px;
+    margin-right: -200px; 
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7)
+
 }
 
 
@@ -374,7 +399,7 @@ main{
     position: relative;
     display: inline-block;
     padding: 0 1.5em 0 1.5em;
-   background: #ffff;
+    background: #ffff;
     background: rgba(255,255,255, 0.7);
     color: #000;
     border-radius: 20px;
@@ -392,24 +417,6 @@ main{
     font-weight: 500;
  }
 
- .profile_logo {
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 10px 0 10px;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.profile_img {
-    align-items: center;
-    margin-left: auto;
-    border-radius: 50%;
-    border:rgba(0 0 0 .7)
-
-}
 
 
 #bell{
@@ -448,13 +455,37 @@ main{
     
 }
 
-#delete-button {
+.delete-button {
     color: red;
-    margin-top: 200px;
-    margin: 0px 15px ;
     padding: 0px 12px 5px 12px;
     display: flex;
     justify-content: flex-end;
     box-sizing: inherit;
     z-index: 50;
+    margin-right: -800px;
+}
+
+.delete-button h2 {
+    color: red;
+    padding: 0px 12px 5px 12px;
+    justify-content: flex-end;
+    box-sizing: inherit;
+    z-index: 50;
+    margin: 10px 10px 0 10px;
+    position: relative;
+    display: inline-block;
+    padding: 0 1.5em 0 1.5em;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.icon{
+    margin-top: 300px;
 }
