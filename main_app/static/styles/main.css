@@ -331,7 +331,7 @@ main{
 }
 
 
-
+/* Card for Profile Page */
 
 .profile-card-container .profile-card .profile-card-content{
     transform: translate(0px);
@@ -423,14 +423,26 @@ main{
 
 
 
-#bell{
-    font-weight: 500;
+ #bell{
     size: 100px;
     margin-left: 90px;
     height: 50px;
     width: 50px;
     color:white;
-    color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    box-sizing: inherit;
+    
+}
+
+
+
+
+#subscribe-bell{
+    size: 100px;
+    margin-left: 90px;
+    height: 50px;
+    width: 50px;
+    color:white;
     box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
     box-sizing: inherit;
     
@@ -514,6 +526,34 @@ main{
     border-left: 1px solid rgba(255,255,255, 0.5);
     backdrop-filter: blur(5px);
 }
+
+.delete-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1.5em 0 1.5em;
+    font-weight: 500;
+
+    
+}
+
+.confirm-button{
+    margin-top: -800px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color:red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    
+}
+
+
+
 
 
 

@@ -10,20 +10,23 @@
         <div class="profile-card-content">
             <h3>{{profile.name}}</h3>
             <ul>
-                {% if is_subscribe %}
-                <i id="bell" class="far fa-bell"></i>
-                </div>
+                {% if profile.is_subscribe %}
+                <i id="subscribe-bell" class="far fa-bell"></i>
+                
                 <li>You are Subscribed!</li>
+                <li>Email: {{profile.email}} </li>
+                <li>Join Date: {{profile.join_date}}</li>
                 {% else %}
                 <i id="bell" class="fas fa-bell-slash"></i>
                 <li>You are not Subscribed</li>
-                {% endif %}
                 <li>Email: {{profile.email}} </li>
                 <li>Join Date: {{profile.join_date}}</li>
-
+                {% endif %}
             </ul>
             <a href="{% url 'profile_update' profile.pk%}">update</a>
+           
         </div>
+       
     </div>
     <div class="water-logo">
     <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
