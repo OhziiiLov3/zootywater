@@ -25,7 +25,7 @@ class Customer(models.Model):
 class Order(models.Model):
 
     email = models.CharField(max_length=200)
-    quantity = models.IntegerField(default=0)
+    quantity = models.PositiveIntegerField(default=0)
     order_date = models.DateTimeField(auto_now_add=True)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name="songs")
 

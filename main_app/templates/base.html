@@ -24,8 +24,8 @@
             <div class="navbar_links">
                 <a class="navbar-item" href="/">Home</a>
                 <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="{%url 'order_create' user.customer.pk %}">Shop</a>
                 <a class="navbar-item" href="/profile">Profile</a>
-                <a class="navbar-item" href="">Shop</a>
                 <a class="navbar-item" href="{% url 'logout' %}">Logout</a>
             </div>
             {% else %}
@@ -41,16 +41,17 @@
         
            </nav>
     {% block content %}{% endblock %}
-        <form action="" method="" class="subscribe">
-            {% csrf_token %} 
+        <form action="{% url 'profile_subscribe' user.customer.pk %}" method="post"  class="subscribe">
+            {% csrf_token %} {{form.errors}}
             <div class="subscribe-form">
                 <h1>Are you Activated?</h1>
                 <p>Sign up and Subscribe for a monthly newsletter.</p>
+               
                 <div class="subscribe-info">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
                 </div>
-                <input class="subscribe-button" type="submit" value="Subscribe" href="{% url 'profile_detail' %}" >
+                <input class="subscribe-button" type="submit" value="Subscribe" >
             </div>
         </form>
     </section>

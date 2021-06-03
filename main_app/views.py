@@ -34,7 +34,14 @@ class CustomerProfile(TemplateView):
 
 class CustomerProfileUpdate(UpdateView):
     model = Customer
-    fields = ['name', 'email', 'join_date', 'is_subscribe']
+    fields = ['name', 'email', 'is_subscribe']
+    template_name = "profile_update.html"
+    success_url = "/profile/"
+
+
+class CustomerSubscribeUpdate(UpdateView):
+    model = Customer
+    fields = ['name', 'email']
     template_name = "profile_update.html"
     success_url = "/profile/"
 
@@ -67,14 +74,17 @@ class Signup(View):
 
 # Order Model 
 
+
+@method_decorator(login_required, name='dispatch')
 class OrderCreate(CreateView):
 
-    def post(self, request, pk):
-        email = request.POST.get("email")
-        quantity = request.POST.get("quantity")
-        order_date = request.POST.get("order_date")
-        customer = Customer.objects.get(pk=pk)
-        Order.objects.create(email=email, quantity=quantity, order_date=order_date, customer=customer)
-        return redirect ('profile_detail', pk=pk)
+    model = Order 
+    fields = ['email', 'quantity']
+    template_name = "order_create.html"
+    success_url = "/profile/"
+
+    def form_valid(self, form):
+        form.instance.customer = self.request.user.customer
+        return super(OrderCreate, self).form_valid(form)
 
    
