@@ -17,14 +17,29 @@
         <nav class="navbar" role="navigation">
             <div class="navbar_logo">
                 <img src="{% static 'images/ZWLOGO.png' %}"alt="logo" class="navbar_img" width="100px" height="100">
-            <h1 class="webtitle">Zooty Water</h1>
+                <h1 class="webtitle">Zooty Water </h1>
+                {% if user.is_authenticated %}
             </div>
             <div class="navbar_links">
-            <a class="navbar-item" href="/">Home</a>
-            <a class="navbar-item" href="/about">About</a>
-            <a class="navbar-item" href="/profile">Profile</a>
+                <h3>Welcome: {{user.username}}</h3>
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="/profile">Profile</a>
+                <a class="navbar-item" href="{% url 'logout' %}">Logout</a>
             </div>
-        </nav>
+            {% else %}
+            <div class="navbar" role="navigation" >
+                <div class="navbar_links">
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="{% url 'login' %}" id="login">Log In</a>
+                <a class="navbar-item" href="{% url 'signup' %}" id="login">Sign Up</a>
+                </div>
+                {% endif %}
+            </div>
+        
+           </nav>
+    {% block content %}{% endblock %}
         <form class="subscribe">
             <div class="subscribe-form">
                 <h1>Are you Activated?</h1>
@@ -33,7 +48,7 @@
                     <input type="text" placeholder="Your Name">
                     <input type="email" placeholder="Your Email">
                 </div>
-                <input class="subscribe-button" type="submit" value="Subscribe">
+                <input class="subscribe-button" type="submit" value="Subscribe" >
             </div>
         </form>
     </section>
@@ -41,7 +56,7 @@
     <div class="circle1"></div>
     <div class="circle2"></div>
   
-        {% block content %}{% endblock %}
+        
 </body>
 
 

@@ -9,4 +9,5 @@ urlpatterns = [
          name="profile_update"),
     path('profile/<int:pk>/delete',
          views.CustomerProfileDelete.as_view(), name="profile_delete"),
+    path('accounts/signup/', views.Signup.as_view(), name="signup"),
 ]

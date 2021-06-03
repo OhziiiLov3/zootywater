@@ -1,10 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.views import View 
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
 from .models import Customer
 from django.views.generic.edit import UpdateView, DeleteView
-
+from django.contrib.auth import login 
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 
 
 
@@ -18,6 +21,7 @@ class About(TemplateView):
     template_name = "about.html"
 
 
+@method_decorator(login_required, name='dispatch')
 class CustomerProfile(TemplateView):
 
     template_name = "profile_detail.html"
@@ -38,3 +42,24 @@ class CustomerProfileDelete(DeleteView):
     template_name = "profile_delete_confirmation.html"
     success_url = "/"
     
+
+class Signup(View):
+    def get(self, request):
+        form = UserCreationForm()
+        context = {"form": form}
+        return render(request, "registration/signup.html", context)
+
+    def post(self, request):
+        form = UserCreationForm(request.POST)
+
+        name = request.POST.get("name")
+        email = request.POST.get("email")
+
+        if form.is_valid():
+            user = form.save()
+            Customer.objects.create(name=name, email=email, user=user)
+            login(request,user)
+            return redirect("profile_detail")
+        else:
+            context = {"form": form}
+            return render(request, "registration/signup.html", context)

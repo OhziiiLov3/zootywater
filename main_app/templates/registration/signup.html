@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="signup-card-container">
+
+    <div class="update-form">
+<h2 class="title">Sign Up</h2>
+<form class="signup-form" method="post" action="{% url 'signup' %}">
+    {% csrf_token %} {{ form.as_p }} {{form.errors}}
+    <input type="text" placeholder="Name" name="name" required> <br>
+    <input type="text" placeholder="Email" name="email" required> <br>
+    <input class="signup-button" type="submit" class="btn" value="Sign Up" />
+    <input type="hidden" name="next" value="{{ next }}" />
+</form>
+</div>
+{% endblock %}
