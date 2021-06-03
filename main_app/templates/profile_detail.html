@@ -2,11 +2,18 @@
 {% load static %}
 
 <div class="About-title">
-    <h1>User Profile</h1>
+    <h1>{{profile.name}}'s Profile</h1>
 </div>
 <div class="profile-card-container">
-   
     <div class="profile-card">
+        <div>
+            <div class="water-logo">
+                <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
+            </div>
+            <video class="profilevideo" width="200" height="300" autoplay loop controls muted>
+                <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
+            </video>
+        </div>
         <div class="profile-card-content">
             <h3>{{profile.name}}</h3>
             <ul>
@@ -28,16 +35,8 @@
        
     </div>
    
-   
-       <div>
-            <div class="water-logo">
-                <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
-            </div>
-        <video class="profilevideo" width="200" height="300" autoplay loop controls muted>
-            <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
-        </video>
-    </div>
-    </div>
+
+</div>
 <a class="delete-button" href="{% url 'profile_delete' profile.pk %}">Delete Profile</a>
 
    

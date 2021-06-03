@@ -1,18 +1,19 @@
 {% extends 'base.html' %} {% block content %}
 
+
 <div class="update-title">
-    <h1>Order Today!</h1>
+<h1>Checkout</h1>
 </div>
 <div class="update-card-container">
     <div class="update-card">
         <div class="update-card-content">
-            <h2>Order Today!</h2>
-            <form method="post" >
-            {% csrf_token %} {{form.as_p}}
-            <input class="update-button" type="submit" value="Order" />
-            </form>
+            <h2>Checkout{{ order.email }}</h2>
+            <p>{{ order.quantity }}</p>
         </div>
     </div>
 </div>
+
+
+
 
 {% endblock %}

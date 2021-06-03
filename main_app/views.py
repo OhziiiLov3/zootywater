@@ -8,7 +8,9 @@ from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView  
+from django.urls import reverse
+from django.views.generic import DetailView
 
 
 
@@ -81,10 +83,18 @@ class OrderCreate(CreateView):
     model = Order 
     fields = ['email', 'quantity']
     template_name = "order_create.html"
-    success_url = "/profile/"
+    
 
     def form_valid(self, form):
         form.instance.customer = self.request.user.customer
         return super(OrderCreate, self).form_valid(form)
 
+    def get_success_url(self):
+        return reverse('order_detail', kwargs={'pk': self.object.pk})
+
    
+class OrderDetail(DetailView):
+    model = Order
+    template_name = "order_detail.html"
+
+

@@ -41,6 +41,7 @@
         
            </nav>
     {% block content %}{% endblock %}
+    {% if user.is_authenticated %}
         <form action="{% url 'profile_subscribe' user.customer.pk %}" method="post"  class="subscribe">
             {% csrf_token %} {{form.errors}}
             <div class="subscribe-form">
@@ -54,6 +55,7 @@
                 <input class="subscribe-button" type="submit" value="Subscribe" >
             </div>
         </form>
+        {% endif %}
     </section>
     </main>
     <div class="circle1"></div>

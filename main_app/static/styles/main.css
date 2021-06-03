@@ -305,9 +305,10 @@ main{
 }
 .profile-card-container .profile-card{
     position: relative;
-    height: 19rem;
-    width: 19rem;
-    margin-left: 180px;
+    height: 28rem;
+    width: 28rem;
+    margin-top: -60px;
+    margin-left: 380px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
     border-radius: 50%;
     background: rgba(255,255,255, .1);
@@ -334,8 +335,7 @@ main{
 }
 
 .water-img {
-    top: -100px;
-    right: 500px;
+    right: 80px;
     position: absolute;
     height: 150px;
     width: 150px;
@@ -369,9 +369,9 @@ main{
 .profile-card-container .profile-card .profile-card-content ul{
     position: relative;
     align-items: center;
-    left: 22px;
+    left: -50px;
     padding: 0.5em 1em 0 1.5em;
-    margin-top: 30px;
+    margin-top: 80px;
     font-size: 1em;
     color: #ffff;
     font-weight: 300;
@@ -390,8 +390,8 @@ main{
 .profile-card-container .profile-card .profile-card-content a {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 75px;
-    top: 18px;
+    left: 5px;
+    top: 28px;
     display: inline-block;
     padding: 0 10px 2px;
     color: #000;
@@ -452,8 +452,10 @@ main{
 
 
  #bell{
+    position: relative;
     size: 100px;
-    margin-left: 90px;
+    margin-left: 65px;
+    top: 20px;
     height: 50px;
     width: 50px;
     color:white;
@@ -466,8 +468,10 @@ main{
 
 
 #subscribe-bell{
+    position: relative;
     size: 100px;
     margin-left: 65px;
+    top: 20px;
     height: 50px;
     width: 50px;
     color:white;
@@ -510,7 +514,8 @@ main{
     text-align:center;
     background: rgba(255,255,255, 0.7);
     position: relative;
-    left: 850px;
+    top: 60px;
+    left: 1050px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -532,18 +537,18 @@ main{
 
 
 .profilevideo{
-    right: 150px;
-    top: -25px;
+    right: -40px;
+    top: -100px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     z-index: 10;
     position: relative;
-    width: 400px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
-    border-radius: 15px;
+    border-radius: 50%;
     background: rgba(255,255,255, .1);
     overflow: hidden;
     justify-content: center;
@@ -652,4 +657,57 @@ main{
     border-left: 1px solid rgba(255,255,255, 0.5);
     backdrop-filter: blur(5px);
     font-family: 'Kanit', sans-serif;
+}
+
+
+/* update card Page  */
+
+ .update-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.update-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.update-card-container .update-card{
+    position: relative;
+    height: 19rem;
+    width: 19rem;
+    margin-left: 450px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 50%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.update-card-container .update-card .update-card-content h1{
+    position: relative;
+    align-items: center;
+    left: 280px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;
+
 }
