@@ -23,8 +23,7 @@
                 <li>Join Date: {{profile.join_date}}</li>
                 {% endif %}
             </ul>
-            <a href="{% url 'profile_update' profile.pk%}">update</a>
-           
+            <a class="update-link" href="{% url 'profile_update' profile.pk%}">update</a>
         </div>
        
     </div>

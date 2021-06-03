@@ -40,7 +40,8 @@
         
            </nav>
     {% block content %}{% endblock %}
-        <form class="subscribe">
+        <form action="" method="" class="subscribe">
+            {% csrf_token %} 
             <div class="subscribe-form">
                 <h1>Are you Activated?</h1>
                 <p>Sign up and Subscribe for a monthly newsletter.</p>
@@ -48,7 +49,7 @@
                     <input type="text" placeholder="Your Name">
                     <input type="email" placeholder="Your Email">
                 </div>
-                <input class="subscribe-button" type="submit" value="Subscribe" >
+                <input class="subscribe-button" type="submit" value="Subscribe" href="{% url 'profile_detail' %}" >
             </div>
         </form>
     </section>

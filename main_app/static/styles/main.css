@@ -370,22 +370,23 @@ main{
 }
 
 .profile-card-container .profile-card .profile-card-content a {
+    margin: 10px 10px 0 10px;
     position: relative;
+    left: 60px;
+    top: 10px;
     display: inline-block;
-    left: 25%;
-    margin-top: 50px;
-    padding: 5px 20px;
-    margin-top: 35px;
-    align-items: center;
-    background: #ffff;
-    background: rgba(255,255,255, 0.7);
-    border-top: 1px solid rgba(255,255,255, 0.5);
-    border-left: 1px solid rgba(255,255,255, 0.5);
+    padding: 0 10px 2px;
     color: #000;
+    background: rgba(255,255,255, 0.7);
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
-    box-shadow: 0 5 px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em; 
 
 }
 
@@ -456,6 +457,8 @@ main{
     box-sizing: inherit;
     
 }
+
+
 
 .update-form{
     font-family: 'Kanit', sans-serif;
