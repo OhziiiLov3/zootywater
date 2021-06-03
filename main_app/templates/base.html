@@ -20,11 +20,12 @@
                 <h1 class="webtitle">Zooty Water </h1>
                 {% if user.is_authenticated %}
             </div>
+            <h3 class="welcome">Welcome {{user.username}}</h3>
             <div class="navbar_links">
-                <h3>Welcome: {{user.username}}</h3>
                 <a class="navbar-item" href="/">Home</a>
                 <a class="navbar-item" href="/about">About</a>
                 <a class="navbar-item" href="/profile">Profile</a>
+                <a class="navbar-item" href="">Shop</a>
                 <a class="navbar-item" href="{% url 'logout' %}">Logout</a>
             </div>
             {% else %}

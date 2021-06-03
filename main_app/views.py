@@ -2,12 +2,13 @@ from django.shortcuts import render,redirect
 from django.views import View 
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Customer
+from .models import Customer , Order
 from django.views.generic.edit import UpdateView, DeleteView
 from django.contrib.auth import login 
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
+from django.views.generic.edit import CreateView
 
 
 
@@ -63,3 +64,17 @@ class Signup(View):
         else:
             context = {"form": form}
             return render(request, "registration/signup.html", context)
+
+# Order Model 
+
+class OrderCreate(CreateView):
+
+    def post(self, request, pk):
+        email = request.POST.get("email")
+        quantity = request.POST.get("quantity")
+        order_date = request.POST.get("order_date")
+        customer = Customer.objects.get(pk=pk)
+        Order.objects.create(email=email, quantity=quantity, order_date=order_date, customer=customer)
+        return redirect ('profile_detail', pk=pk)
+
+   

@@ -83,6 +83,11 @@ main{
    
 }
 
+.navbar-item:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
 .navbar_logo {
     height: auto;
     width: 100%;
@@ -102,7 +107,15 @@ main{
 
 }
 
-
+.welcome{
+    padding: 8px 12px;
+    margin: auto;
+    right: 150px;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
 
 .webtitle {
     height: 100%;
@@ -179,6 +192,7 @@ main{
 .card-container{ 
     height: 450px;
     position: relative;
+    margin-left: 300px;
     display: flex;
     justify-content: center;
     align-items: center;

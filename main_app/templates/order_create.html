@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Add an Artist</h1>
+
+<form method="post" action="{% url 'song_create' artist.pk %}">
+
+    <input class="input" type="text" name="email" placeholder="Email" />
+    {% csrf_token %}
+ 
+    {{form.as_p}}
+
+    <input type="submit" value="Submit" />
+</form>
+
+{% endblock %}
