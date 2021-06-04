@@ -1,16 +1,20 @@
 {% extends 'base.html' %} {% block content %}
 
 
-<div class="update-title">
+<div class="checkout-title">
 <h1>Checkout</h1>
 </div>
-<div class="update-card-container">
-    <div class="update-card">
-        <div class="update-card-content">
+<div class="checkout-card-container">
+    <div class="checkout-card">
+        <div class="checkout-card-content">
             <h2>Checkout{{ order.email }}</h2>
-            <p>{{ order.quantity }}</p>
+            <h2>{{ user.customer.name }}</h2>
+            <h2>{{ order.quantity }}</h2>
+            <a class="checkout-link" href="">Checkout</a>
+            <a class="checkout-update" href="{% url 'order_update' order.pk %}">Update Order</a>
         </div>
     </div>
+    
 </div>
 
 

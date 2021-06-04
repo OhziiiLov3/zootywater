@@ -98,3 +98,12 @@ class OrderDetail(DetailView):
     template_name = "order_detail.html"
 
 
+class OrderUpdate(UpdateView):
+    model = Order
+    fields = ['email', 'quantity']
+    template_name = "order_update.html"
+
+    def get_success_url(self):
+        return reverse('order_detail', kwargs={'pk': self.object.pk})
+
+
