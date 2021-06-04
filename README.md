@@ -12,20 +12,17 @@ Zooty Water App - User is able to subscribe and purchase Zooty Water
 ## Zooty water Application 
 - Registered Users will be able to create, update, edit and delete a profile 
 - Emails will be collected upon sign up 
-- User will be able to view a List of Zooty Water Products 
-- User will be able to view a detail page of the selected Product 
-- User will be able to add Product to Shopping cart to place order 
+- User will be able to create update, edit, and delete order for Zooty Water Product 
+- User will be able to view a detail page of the Order to Checkout 
 - User will be able to subscribe for monthly newsletter 
 - User will receive Thank you email if User opts in for newsletter 
 - Users without Profiles will be able to view Home page and product index page but will not be able to and checkout until the user signs up for Profile. 
 ### Ice Box
-- User will be able to Recieve pay for order 
-- User will be able to Recieve order 
+- User will be able to pay for order 
+- User will be able to Recieve the order 
 - User will be able  take survey 
-- User profile color will be determined based of responses
-- User profile can change the color of profile by taking a new survey (One attempt per day)
-### Bonus 
 - 3D Model of Bottle 
+### Bonus 
 - Link to 3D Bottle NFT
 # Technical Requirements
 ## What technologies will I be using?

@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1 class="title">Are you sure you want to Delete {{order.email}}:{{order.quantity}}?</h1>
+<h1 class="title">Are you sure you want to Delete your Order {{order.email}}?</h1>
 <form action="" method="post">
     {% csrf_token %}
     <div class="delete-form">
