@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1 class="title">Are you sure you want to Delete {{order.email}}:{{order.quantity}}?</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="delete-form">
+        <input class="confirm-button is-danger" type="submit" value="Delete" />
+        <a class="button is-primary" href="{% url 'order_create' order.pk %}"></a>
+    </div>
+</form>
+
+{% endblock %}

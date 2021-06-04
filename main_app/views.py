@@ -107,3 +107,10 @@ class OrderUpdate(UpdateView):
         return reverse('order_detail', kwargs={'pk': self.object.pk})
 
 
+class OrderDelete(DeleteView):
+    model = Order
+    template_name = "order_delete_confirmation.html"
+    def get_success_url(self):
+        return reverse('order_create', kwargs={'pk': self.object.pk})
+
+        
