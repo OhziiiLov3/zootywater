@@ -1,13 +1,13 @@
 {% extends 'base.html' %} {% block content %}
 <div class="update-title">
-    <h1>Update Profile</h1>
+    <h1>User Profile</h1>
 </div>
 <div class="update-card-container">
    
 <div class="update-card">
     <div class="update-card-content">
         <h2>Update</h2>
-        <h3>{{profile.name}}</h3>
+        <h3>{{user.customer.name}}</h3>
     <div class="update-form">
         <form action="" method="post">
             {% csrf_token %} {{form.as_p}} 

@@ -1,15 +1,15 @@
 {% extends 'base.html' %} {% block content %}
 
-<div class="update-title">
+<div class="order-title">
     <h1>Order Today!</h1>
 </div>
-<div class="update-card-container">
-    <div class="update-card">
-        <div class="update-card-content">
-            <h2>Order Today!</h2>
+<div class="order-card-container">
+    <div class="order-card">
+        <div class="order-card-content">
+            <h2>{{ user.customer.name }}</h2>
             <form method="post" >
             {% csrf_token %} {{form.as_p}}
-            <input class="update-button" type="submit" value="Order" />
+            <input class="order-button" type="submit" value="Order" />
             </form>
         </div>
     </div>

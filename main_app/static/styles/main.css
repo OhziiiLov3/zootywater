@@ -711,3 +711,94 @@ main{
     font-weight: 300;
 
 }
+
+/* ORDER CARD */
+
+.order-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.order-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.order-card-container .order-card{
+    position: relative;
+    height: 19rem;
+    width: 19rem;
+    margin-left: 450px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 50%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.order-card-container .order-card .order-card-content h2{
+    position: relative;
+    align-items: center;
+    top: -28px;
+    left: 20px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+
+}
+
+.order-card-container .order-card .order-card-content {
+    position: relative;
+    align-items: center;
+    top: -80px;
+    left: -10px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;
+   
+
+}
+
+
+
+
+.order-button{
+    position: relative;
+    top: 20px;
+    left: 80px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
