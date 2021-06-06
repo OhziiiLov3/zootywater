@@ -1,4 +1,5 @@
 {% extends 'base.html' %} {% block content %}
+{% load static %}
 
 <div class="order-title">
     <h1>Order Today!</h1>
@@ -7,12 +8,14 @@
     <div class="order-card">
         <div class="order-card-content">
             <h2>{{ user.customer.name }}</h2>
-            <form method="post" >
+            <form class="order-form" method="post" >
             {% csrf_token %} {{form.as_p}}
             <input class="order-button" type="submit" value="Order" />
             </form>
         </div>
     </div>
+    <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
+    <img class="order-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
 </div>
 
 {% endblock %}
