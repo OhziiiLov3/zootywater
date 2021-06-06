@@ -87,7 +87,8 @@ class Signup(View):
 class OrderCreate(CreateView):
 
     model = Order 
-    fields = ['email', 'quantity']
+    fields = ['email', 'quantity', 'street_address',
+              'city', 'state', 'zip_code']
     template_name = "order_create.html"
     
 
@@ -106,7 +107,7 @@ class OrderDetail(DetailView):
 
 class OrderUpdate(UpdateView):
     model = Order
-    fields = ['email', 'quantity']
+    fields = ['email', 'quantity', 'street_address','city', 'state','zip_code']
     template_name = "order_update.html"
 
     def get_success_url(self):

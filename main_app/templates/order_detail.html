@@ -10,6 +10,8 @@
             <h2>Checkout{{ order.email }}</h2>
             <h2>{{ user.customer.name }}</h2>
             <h2>{{ order.quantity }}</h2>
+            <h2>{{ order.street_address }}</h2>
+            <h2>{{ order.city }}</h2>
             <a class="checkout-link" href="">Checkout</a>
             <a class="checkout-update" href="{% url 'order_update' order.pk %}">Update Order</a>
         </div>

@@ -962,3 +962,10 @@ main{
     font-family: 'Kanit', sans-serif;
     font-size: .8em
 } 
+
+.bottle{
+    position: relative;
+    left: 650px;
+    height: 300px;
+    width: 150px;
+}
