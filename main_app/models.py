@@ -33,3 +33,13 @@ class Order(models.Model):
         return self.email
 
 
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.IntegerField(500)
+    order = models.ManyToManyField(Order)
+
+    def __str__(self):
+        return self.name 
+    
+    def get__display_price(self):
+        return "{0:.2f}".format(self.price / 100)

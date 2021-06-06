@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from django.views import View 
 from django.http import HttpResponse
 from django.views.generic.base import TemplateView
-from .models import Customer , Order
+from .models import Customer , Order, Product
 from django.views.generic.edit import UpdateView, DeleteView
 from django.contrib.auth import login 
 from django.contrib.auth.forms import UserCreationForm
@@ -11,6 +11,12 @@ from django.utils.decorators import method_decorator
 from django.views.generic.edit import CreateView  
 from django.urls import reverse
 from django.views.generic import DetailView
+import stripe
+from django.conf import settings 
+from django.http import JsonResponse
+
+
+stripe.api_key = settings.STRIPE_SECRET_KEY 
 
 
 
@@ -113,4 +119,60 @@ class OrderDelete(DeleteView):
     def get_success_url(self):
         return reverse('order_create', kwargs={'pk': self.object.pk})
 
-        
+
+# STRIPE CHECKOUT 
+
+class SuccessView(TemplateView):
+    model = Product
+    template_name = "success.html"
+
+class CancelView(TemplateView):
+    model = Product
+    template_name = "cancel.html"
+
+
+class CreateCheckoutSessionView(View):
+    model = Product
+   
+    def post(self, request, *args, **kwargs):
+        product_id = self.kwargs["pk"]
+        product= Product.objects.get(id=product_id)
+        YOUR_DOMAIN = "http://127.0.0.1:8000/"
+        checkout_session = stripe.checkout.Session.create(
+            payment_method_types=['card'],
+            line_items=[
+                {
+                    'price_data': {
+                        'currency': 'usd',
+                        'unit_amount': product.price,
+                        'product_data': {
+                            'name': product.name,
+                            # 'images': ['https://i.imgur.com/EHyR2nP.png'],
+                        },
+                    },
+                    'quantity': 1,
+                },
+            ],
+            mode='payment',
+            success_url=YOUR_DOMAIN + '/success/',
+            cancel_url=YOUR_DOMAIN + '/cancel/',
+        )
+        return JsonResponse({
+            'id': checkout_session.id
+        })
+
+class ProductCheckoutView(TemplateView):
+    model = Product
+    template_name = "checkout.html"
+    
+
+    def get_context_data(self, **kwargs):
+        product = Product.objects.get(name="")
+        context = super(ProductCheckoutView, self).get_context_data(**kwargs)
+        context.update ({
+            "product": product,
+            "STRIPE_PUBLIC_KEY": settings.STRIPE_PUBLIC_KEY
+        })
+        return context 
+
+

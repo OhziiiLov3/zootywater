@@ -120,6 +120,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STRIPE_PUBLIC_KEY = "pk_test_51IzPYfKoasaVGFbXWCjSV6Xc9LY8HFVHkES2626PqcikMGWKYgEhzVAP2krp8vPH51NmTcbzsWwovXoI2a1gszIM00fftXeIUU"
+
+STRIPE_SECRET_KEY = "sk_test_51IzPYfKoasaVGFbXP0tLhGhDcPSURtXYE343ZsHNQZNe1EuwMHcSIKMmeIQlkHA0SHejyfLnHxNCyiY6VJQSZyUd00vUA2YaoE"
+
+
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
