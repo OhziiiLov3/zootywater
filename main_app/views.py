@@ -56,7 +56,7 @@ class CustomerSubscribeUpdate(UpdateView):
 class CustomerProfileDelete(DeleteView):
     model = Customer
     template_name = "profile_delete_confirmation.html"
-    success_url = "/"
+    success_url = "/accounts/logout"
     
 
 class Signup(View):
@@ -148,7 +148,7 @@ class CreateCheckoutSessionView(View):
                         'unit_amount': product.price,
                         'product_data': {
                             'name': product.name,
-                            # 'images': ['https://i.imgur.com/EHyR2nP.png'],
+                            'images': ['https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif'],
                         },
                     },
                     'quantity': 1,
@@ -168,7 +168,7 @@ class ProductCheckoutView(TemplateView):
     
 
     def get_context_data(self, **kwargs):
-        product = Product.objects.get(name="")
+        product = Product.objects.get(name="Zooty Water")
         context = super(ProductCheckoutView, self).get_context_data(**kwargs)
         context.update ({
             "product": product,

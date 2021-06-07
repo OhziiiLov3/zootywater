@@ -14,7 +14,7 @@
             <li>{{ order.street_address }}</li>
             <li>{{ order.city }}</li>
             </ul>
-            <a class="checkout-link" href="">Checkout</a>
+            <a class="checkout-link" href="{% url 'checkout' %}">Checkout</a>
             <a class="checkout-update" href="{% url 'order_update' order.pk %}">Update Order</a>
         </div>
     </div>
