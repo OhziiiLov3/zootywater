@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 <h1>Home</h1>
-<img  class="bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
+<video class="homevideo" width="200" height="300" autoplay loop controls muted>
+<source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
+</video>
+</div>
+<img  class="bottle" src="{% static 'images/ezgif.com-gif-maker (1).gif'%}" alt="Zooty Water">
 {% endblock %}

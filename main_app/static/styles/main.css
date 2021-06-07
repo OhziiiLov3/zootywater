@@ -819,6 +819,31 @@ main{
 }
 
 
+.order-water-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.order-water-img {
+    right: 250px;
+    top: -20px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
 /* CHECKOUT PAGE  */
 
 .checkout-title h1{ 
@@ -981,7 +1006,8 @@ main{
 
 .bottle{
     position: relative;
-    left: 650px;
+    left: 300px;
+    bottom: 200px;
     height: 300px;
     width: 150px;
 }
@@ -1002,4 +1028,26 @@ main{
     font-weight: 800;
     font-size: 2em;
 
+}
+
+.homevideo{
+    left: -160px;
+    top: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    z-index: 10;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
 }
