@@ -12,24 +12,36 @@
 
 <body>
     <section>
+    <div class="order-card-container">
+            <div class="order-card">
+                <div class="order-card-content">
         <div class="product">
-            <img src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="The cover of Stubborn Attachments" />
+            <img class="checkout-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water Bottle" />
             <div class="description">
-                <h3>{{product.name}}</h3>
-                <h5>${{product.get_display_price}}</h5>
+                <h3> {{product.name}}</h3> 
+
+                <h3>${{product.get_display_price}}</h3>
+                <h3>Quantity: {{order.quantity}}</h3>
             </div>
         </div>
-        <button type="button" id="checkout-button">Checkout</button>
+        
+        <button type="button" class="checkout-link" id="checkout-button">Checkout</button>
+
+    </div>
+        </div>
+        </div>
     </section>
     {% csrf_token %}
 </body>
+
+
 <script type="text/javascript">
 const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
     // Create an instance of the Stripe object with your publishable API key
     var stripe = Stripe("{{STRIPE_PUBLIC_KEY}}");
     var checkoutButton = document.getElementById("checkout-button");
     checkoutButton.addEventListener("click", function () {
-        fetch("{% url 'create-checkout-session' product.id %}", {
+        fetch("{% url 'create-checkout-session' product.id  order.quantity %}", {
             method: "POST",
             headers:{
                 'X-CSRFToken': csrftoken

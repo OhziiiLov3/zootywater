@@ -9,12 +9,12 @@
         <div class="checkout-card-content">
             <h3>{{ user.customer.name }}</h3>
             <ul>
-            <li>{{ order.email }}</li>
-            <li>{{ order.quantity }}</li>
-            <li>{{ order.street_address }}</li>
-            <li>{{ order.city }}</li>
+            <li>Email: {{ order.email }}</li>
+            <li>Quantity: {{ order.quantity }}</li>
+            <li>Street: {{ order.street_address }}</li>
+            <li>City: {{ order.city }}</li>
             </ul>
-            <a class="checkout-link" href="{% url 'checkout' %}">Checkout</a>
+            <a class="checkout-link" href="{% url 'checkout' order.pk %}">Confirm Order</a>
             <a class="checkout-update" href="{% url 'order_update' order.pk %}">Update Order</a>
         </div>
     </div>

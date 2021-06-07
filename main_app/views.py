@@ -104,6 +104,8 @@ class OrderDetail(DetailView):
     model = Order
     template_name = "order_detail.html"
 
+   
+
 
 class OrderUpdate(UpdateView):
     model = Order
@@ -137,7 +139,10 @@ class CreateCheckoutSessionView(View):
    
     def post(self, request, *args, **kwargs):
         product_id = self.kwargs["pk"]
+        quantity = self.kwargs["quantity"]
         product= Product.objects.get(id=product_id)
+        # order = Order.objects.get("quantity")
+        # print(request)
         YOUR_DOMAIN = "http://127.0.0.1:8000/"
         checkout_session = stripe.checkout.Session.create(
             payment_method_types=['card'],
@@ -151,12 +156,12 @@ class CreateCheckoutSessionView(View):
                             'images': ['https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif'],
                         },
                     },
-                    'quantity': 1,
+                    'quantity': quantity,
                 },
             ],
             mode='payment',
-            success_url=YOUR_DOMAIN + '/success/',
-            cancel_url=YOUR_DOMAIN + '/cancel/',
+            success_url=YOUR_DOMAIN + 'success/',
+            cancel_url=YOUR_DOMAIN + 'cancel/',
         )
         return JsonResponse({
             'id': checkout_session.id
@@ -169,10 +174,12 @@ class ProductCheckoutView(TemplateView):
 
     def get_context_data(self, **kwargs):
         product = Product.objects.get(name="Zooty Water")
+        order = Order.objects.get(pk=self.kwargs["order_pk"])
         context = super(ProductCheckoutView, self).get_context_data(**kwargs)
         context.update ({
             "product": product,
-            "STRIPE_PUBLIC_KEY": settings.STRIPE_PUBLIC_KEY
+            "STRIPE_PUBLIC_KEY": settings.STRIPE_PUBLIC_KEY,
+            "order": order
         })
         return context 
 

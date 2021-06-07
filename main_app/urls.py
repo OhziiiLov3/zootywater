@@ -21,9 +21,9 @@ urlpatterns = [
          views.OrderUpdate.as_view(), name="order_update"),
     path('order/<int:pk>/delete',
          views.OrderDelete.as_view(), name="order_delete"),
-    path('create-checkout-session/<pk>/', views.CreateCheckoutSessionView.as_view(),
+    path('create-checkout-session/<pk>/<int:quantity>/', views.CreateCheckoutSessionView.as_view(),
          name="create-checkout-session"),
-    path('product/', views.ProductCheckoutView.as_view(), name="checkout"),
+    path('product/<int:order_pk>', views.ProductCheckoutView.as_view(), name="checkout"),
     path('cancel/', views.CancelView.as_view(), name='cancel'),
     path('success/', views.SuccessView.as_view(), name='success'),
 ]

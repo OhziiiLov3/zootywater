@@ -912,7 +912,7 @@ main{
 .checkout-link {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 70px;
+    left: 50px;
     top: 28px;
     display: inline-block;
     padding: 0 10px 2px;
@@ -937,7 +937,7 @@ main{
 .checkout-update  {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 60px;
+    left: 50px;
     top: 40px;
     display: inline-block;
     padding: 0 10px 2px;
@@ -984,4 +984,22 @@ main{
     left: 650px;
     height: 300px;
     width: 150px;
+}
+.checkout-bottle{
+    position: relative;
+    height: 200px;
+    width: 100px;
+}
+
+.price{
+    left: 650px;
+    top: -430px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+
 }
