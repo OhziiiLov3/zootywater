@@ -112,16 +112,20 @@ main{
 .welcome{
     padding: 8px 12px;
     margin: auto;
-    right: 150px;
+    left: 500px;
+    top: 570px; 
     position: relative;
     text-align: center;
-    color: black;
+    color:rgba(19, 18, 18, 0.6);
     font-size: 15px;
 }
 
 .webtitle {
     height: 100%;
     width: 100%;
+    position: relative;
+    left: 30px;
+    font-size: 35px;
     justify-content: flex-start;
     margin: 0 10px 0 10px;
     font-family: 'Sigmar One', cursive;
@@ -183,7 +187,7 @@ main{
 
 .home-title h1{ 
     left: 150px;
-    top: 30px;
+    top: 20px;
     position: relative;
     align-items: center;
     justify-content: flex;
@@ -201,20 +205,20 @@ main{
     color: white;
     color:rgba(255, 255, 255, 0.6);
     font-weight: 800;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .home-title p{ 
-    left: 150px;
+    left: 180px;
     top: 30px;
     position: relative;
     align-items: center;
     justify-content: flex;
     color:rgba(19, 18, 18, 0.6);
     font-weight: 800;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .home-title ul{ 
-    left: 200px;
+    left: 230px;
     top: 30px;
     position: relative;
     align-items: center;
@@ -238,13 +242,13 @@ size: 1em;
 
 .home-bottle{
     position: relative;
-    left: 700px;
+    left: 650px;
     bottom: 300px;
     height: 300px;
 }
 
 .home-water-img {
-    right: 210px;
+    right: 220px;
     top: 60px;
     position: absolute;
     height: 150px;
@@ -259,7 +263,7 @@ size: 1em;
 .order-link{
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 840px;
+    left: 790px;
     bottom: 250px;
     display: inline-block;
     padding: 0 10px 2px;
@@ -538,7 +542,7 @@ size: 1em;
 
 
 .subscribe{
-    margin-left: 200px; 
+    margin-left: 150px; 
     bottom: 50px;
     align-items: center;
     justify-content: flex;
@@ -548,6 +552,10 @@ size: 1em;
     font-size: .9em; 
     position: absolute;
     z-index:100;
+}
+
+.subscribe p{
+    color: rgba(19, 18, 18, 0.6);
 }
 .subscribe-button{
     margin: 10px 10px 0 10px;
