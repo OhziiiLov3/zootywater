@@ -112,8 +112,8 @@ main{
 .welcome{
     padding: 8px 12px;
     margin: auto;
-    left: 500px;
-    top: 570px; 
+    left: 350px;
+    top: 540px; 
     position: relative;
     text-align: center;
     color:rgba(19, 18, 18, 0.6);
@@ -478,9 +478,9 @@ size: 1em;
 }
 .profile-card-container .profile-card{
     position: relative;
-    height: 28rem;
-    width: 28rem;
-    margin-top: -60px;
+    height: 21rem;
+    width: 21rem;
+    margin-top: -20px;
     margin-left: 380px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
     border-radius: 50%;
@@ -508,7 +508,8 @@ size: 1em;
 }
 
 .water-img {
-    right: 80px;
+    right: 165px;
+    top: -100px;
     position: absolute;
     height: 150px;
     width: 150px;
@@ -530,10 +531,11 @@ size: 1em;
 }
 
 .profile-card-container .profile-card .profile-card-content h3{
-    position: absolute;
-    top: -30px;
-    right: 55px;
-    font-size: 1.5em;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    left: 50px;
+    font-size: 1.3em;
     color: rgba(255,255,255, 0.7)
     
 
@@ -542,9 +544,8 @@ size: 1em;
 .profile-card-container .profile-card .profile-card-content ul{
     position: relative;
     align-items: center;
-    left: -50px;
     padding: 0.5em 1em 0 1.5em;
-    margin-top: 80px;
+    margin-top: 20px;
     font-size: 1em;
     color: #ffff;
     font-weight: 300;
@@ -563,7 +564,7 @@ size: 1em;
 .profile-card-container .profile-card .profile-card-content a {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 5px;
+    left: 60px;
     top: 28px;
     display: inline-block;
     padding: 0 10px 2px;
@@ -674,6 +675,9 @@ size: 1em;
     background: #ffff;
     background: rgba(255,255,255, 0.7);
     color: #000;
+    position: relative;
+    top: 20px;
+    left: 35px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -685,14 +689,16 @@ size: 1em;
     
 }
 
+
+
 .delete-button  {
     color: red;
     padding: 0 1em 0 1em;
     text-align:center;
     background: rgba(255,255,255, 0.7);
     position: relative;
-    top: 60px;
-    left: 1050px;
+    bottom: 150px;
+    left: 990px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
@@ -714,18 +720,18 @@ size: 1em;
 
 
 .profilevideo{
-    right: -40px;
-    top: -100px;
+    left: 490px;
+    bottom: 280px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     z-index: 10;
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
-    border-radius: 50%;
+    border-radius: 15%;
     background: rgba(255,255,255, .1);
     overflow: hidden;
     justify-content: center;
@@ -865,6 +871,7 @@ size: 1em;
     width: 250px;
     height: 350px;
     top: -20px;
+    left: 250px;
     margin-left: 250px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
     border-radius: 10%;
@@ -878,16 +885,37 @@ size: 1em;
     backdrop-filter: blur(5px);
  
 }
-.update-card-container .update-card .update-card-content h1{
+.update-card-container .update-card .update-card-content h3{
     position: relative;
     align-items: center;
-    left: 280px;
+    bottom: 30px;
+    left: 60px;
     padding: 0.5em 1em 0 1.5em;
     margin-top: 30px;
-    font-size: 1em;
-    color: #ffff;
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.7);
     font-weight: 300;
 
+}
+
+.update-card-container .update-card .update-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;;
+   
+
+}
+
+.update-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 1em 1em;
+    font-weight: 300;
+    font-size: 1em;
 }
 
 /* ORDER CARD */
@@ -967,7 +995,7 @@ size: 1em;
 
 .order-bottle{
     position: relative;
-    left: 150px;
+    left: 130px;
     top: -10px;
     height: 350px;
   
@@ -976,7 +1004,7 @@ size: 1em;
 
 .order-button{
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 40px;
     padding: 0 1.8em 0 1.5em;
     font-family: 'Kanit', sans-serif;
@@ -1020,6 +1048,107 @@ size: 1em;
 
 }
 
+/* Update Order */
+.update-order-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.update-order-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.update-order-card-container .update-order-card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: -20px;
+    left:250px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 10%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.update-order-card-container .update-order-card .update-order-card-content h2{
+    position: relative;
+    align-items: center;
+    top: -2px;
+    left: 20px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1.2em;
+
+}
+
+.update-order-card-container .update-order-card .update-order-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;;
+   
+
+}
+
+.update-order-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 0 1em;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+
+.update-order-button{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+
+
+
+
+
 /* CHECKOUT PAGE  */
 
 .checkout-title h1{ 
@@ -1031,6 +1160,17 @@ size: 1em;
     color:rgba(255, 255, 255, 0.6);
     font-weight: 800;
     font-size: 2em;
+}
+
+.checkout-title p{ 
+    left: 450px;
+    bottom: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 800;
+    font-size: 1em;
 }
 
 .checkout-card-container{ 
@@ -1062,17 +1202,29 @@ size: 1em;
     backdrop-filter: blur(3px);
  
 }
-.checkout-card-container .checkout-card .checkout-card-content h2{
+
+.checkout-card-container .checkout-card .checkout-card-content ul{
+    position: relative;
+    align-items: center;
+    left: 15px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 300;
+
+}
+.checkout-card-container .checkout-card .checkout-card-content h3{
    position: relative;
     align-items: center;
-    top: -2px;
+    top: -20px;
     left: 20px;
     padding: 0.5em 1em 0 1.5em;
     margin-top: 30px;
     color: white;
     color:rgba(255, 255, 255, 0.6);
     font-weight: 800;
-    font-size: 1em;
+    font-size: 1.5em;
 
 }
 
@@ -1138,7 +1290,7 @@ size: 1em;
 .checkout-update  {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 50px;
+    left: 55px;
     top: 40px;
     display: inline-block;
     padding: 0 10px 2px;
@@ -1162,8 +1314,8 @@ size: 1em;
 
 .order-delete-button  {
     color: red;
-    top: 20px;
-    left: 1050px;
+    bottom: 20px;
+    left: 1000px;
     margin: 10px 10px 0 10px;
     position: relative;
     display: inline-block;

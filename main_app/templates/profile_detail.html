@@ -7,19 +7,13 @@
 <div class="profile-card-container">
     <div class="profile-card">
         <div>
-            <div class="water-logo">
-                <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
-            </div>
-            <video class="profilevideo" width="200" height="300" autoplay loop controls muted>
-                <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
-            </video>
         </div>
         <div class="profile-card-content">
+           
             <h3>{{profile.name}}</h3>
             <ul>
                 {% if profile.is_subscribe %}
-                <i id="subscribe-bell" class="far fa-bell"></i>
-                
+                <i id="bell" class="far fa-bell"></i>
                 <li>You are Subscribed!</li>
                 <li>Email: {{profile.email}} </li>            
                 <li>Join Date: {{profile.join_date}}</li>
@@ -28,14 +22,17 @@
                 <li>You are not Subscribed</li>
                 <li>Email: {{profile.email}} </li>
                 <li>Join Date: {{profile.join_date}}</li>
-                {% endif %}
+                {% endif %}  
             </ul>
             <a class="update-link" href="{% url 'profile_update' profile.pk%}">update</a>
         </div>
-       
     </div>
-   
-
+    <div class="water-logo">
+        <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
+    </div>
+<video class="profilevideo" width="200" height="300" autoplay loop controls muted>
+    <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
+</video>
 </div>
 <a class="delete-button" href="{% url 'profile_delete' profile.pk %}">Delete Profile</a>
 

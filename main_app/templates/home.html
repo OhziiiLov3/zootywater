@@ -21,10 +21,10 @@
 {% if user.is_authenticated %}
 <a class="order-link" href="{% url 'order_create' user.customer.pk %}">Purchase!</a>
 <img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
-<img  class="home-bottle" src="{% static 'images/Zootywater-0.png'%}" alt="Zooty Water">
+<img  class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
 {% else %}
 <a class="order-link" href="{% url 'signup' %}">Purchase!</a>
 <img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
-<img class="home-bottle" src="{% static 'images/Zootywater-0.png'%}" alt="Zooty Water">
+<img class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
 {% endif %}
 {% endblock %}
