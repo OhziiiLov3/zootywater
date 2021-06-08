@@ -41,7 +41,7 @@
         
            </nav>
     {% block content %}{% endblock %}
-    {% if user.is_authenticated %}
+    {% if user.is_authenticated %} {{form.errors}}
         <form action="{% url 'profile_subscribe' user.customer.pk %}" method="post"  class="subscribe">
             {% csrf_token %} {{form.errors}}
             <div class="subscribe-form">
