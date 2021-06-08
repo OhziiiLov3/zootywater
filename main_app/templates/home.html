@@ -19,11 +19,11 @@
 <p>Address: 123 Zooty Way, Ave, Oakland CA</p>
 </div>
 {% if user.is_authenticated %}
-<a class="order-link" href="{% url 'order_create' user.customer.pk %}">Purchase!</a>
+<a class="order-link" href="{% url 'order_create' user.customer.pk %}">Order</a>
 <img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
 <img  class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
 {% else %}
-<a class="order-link" href="{% url 'signup' %}">Purchase!</a>
+<a class="order-link" href="{% url 'signup' %}">Order</a>
 <img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
 <img class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
 {% endif %}
