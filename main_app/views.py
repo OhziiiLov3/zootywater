@@ -24,7 +24,12 @@ stripe.api_key = settings.STRIPE_SECRET_KEY
 
 
 class Home(TemplateView):
-     template_name= "home.html"       
+    model = Order
+    template_name= "home.html"  
+
+    def get_success_url(self):
+        return reverse('order_create', kwargs={'pk': self.object.pk})
+       
 
 class About(TemplateView):
     template_name = "about.html"

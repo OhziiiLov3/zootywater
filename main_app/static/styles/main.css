@@ -173,9 +173,112 @@ main{
 .circle2{
     bottom: 5%; 
     left: 10%;
-    height: 12.5rem;
-    width: 12.5rem;
+    /* height: 12.5rem;
+    width: 12.5rem; */
+
 }
+
+/* Home Page */
+
+.home-title h1{ 
+    left: 150px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+.home-title p{ 
+    left: 150px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 800;
+    font-size: 1em;
+}
+.home-title ul{ 
+    left: 200px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.home-bottle{
+    position: relative;
+    left: 720px;
+    bottom: 5px;
+    height: 300px;
+    width: 150px;
+}
+
+.home-water-img {
+    right: 210px;
+    top: 60px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+}
+
+.order-link{
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 860px;
+    top: 40px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .9em; 
+}
+
+.order-link:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+.homevideo{
+    right: 700px;
+    top: 60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: 400px;
+    height: 250px;
+    z-index: 10;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 5%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
 /* About Page And Glass Cards */
 
 .card-container .About-title h1{
@@ -413,13 +516,13 @@ main{
 
 .subscribe{
     margin-left: 200px; 
-    bottom: 20px;
+    bottom: 50px;
     align-items: center;
     justify-content: flex;
     color:white;
     color:rgba(255, 255, 255, 0.8);
     font-weight: 800;
-    font-size: .8em; 
+    font-size: .9em; 
     position: absolute;
     z-index:100;
 }
@@ -1006,8 +1109,8 @@ main{
 
 .bottle{
     position: relative;
-    left: 300px;
-    bottom: 200px;
+    left: 860px;
+    bottom: 250px;
     height: 300px;
     width: 150px;
 }
@@ -1030,24 +1133,4 @@ main{
 
 }
 
-.homevideo{
-    left: -160px;
-    top: 30px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    z-index: 10;
-    position: relative;
-    width: 350px;
-    height: 250px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
-    border-radius: 15%;
-    background: rgba(255,255,255, .1);
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255,255,255, 0.7);
-    border-left: 1px solid rgba(255,255,255, 0.5);
-    backdrop-filter: blur(5px);
-}
+

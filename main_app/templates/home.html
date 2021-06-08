@@ -1,10 +1,22 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static %}
-<h1>Home</h1>
-<video class="homevideo" width="200" height="300" autoplay loop controls muted>
-<source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
-</video>
+<div class="home-title">
+<h1>Solarized Structured Alkaline Water</h1>
+<p>Zooty Water is natural living alkaline water</p>
+<p>PH Level 9-9.5</p>
+<p>Active Ingredients</p>
+<ul>
+<li>Pure Energy</li>
+<li>Health</li>
+<li>Wealth</li>
+</ul>
 </div>
-<img  class="bottle" src="{% static 'images/ezgif.com-gif-maker (1).gif'%}" alt="Zooty Water">
+<!-- <video class="homevideo" width="350" height="300" autoplay loop controls muted>
+<source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
+</video> -->
+<a class="order-link" href="{% url 'order_create' user.customer.pk %}">Purchase!</a>
+<img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
+<img  class="home-bottle" src="{% static 'images/Zootywater-0.png'%}" alt="Zooty Water">
+
 {% endblock %}
