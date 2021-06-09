@@ -147,8 +147,8 @@ class CreateCheckoutSessionView(View):
         product_id = self.kwargs["pk"]
         quantity = self.kwargs["quantity"]
         product= Product.objects.get(id=product_id)
-        
-        YOUR_DOMAIN = "http://127.0.0.1:8000/"
+
+        YOUR_DOMAIN = "https://zootywaterapp.herokuapp.com/"
         checkout_session = stripe.checkout.Session.create(
             payment_method_types=['card'],
             line_items=[
