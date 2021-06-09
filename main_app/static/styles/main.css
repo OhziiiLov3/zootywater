@@ -1609,8 +1609,8 @@ size: 1em;
 }
 
 .cancel-water-img {
-    right: 30px;
-    bottom: 120px;
+    right: 50px;
+    bottom: 110px;
     position: relative;
     height: 150px;
     width: 150px;
@@ -1625,7 +1625,7 @@ size: 1em;
 .cancel-button{
     position: relative;
     top: 80px;
-    right: 140px;
+    right: 155px;
     padding: 0 1.8em 0 1.5em;
     font-family: 'Kanit', sans-serif;
     background: #ffff;
