@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
-{% block content %}
-Success! 
-
+{% block content %} {% load static%}
+<div class="cancel">
+    <h1>{{user.email}} You have Completed Your Order</h1>
+    <img src="{% static 'images/zootywatericon.png' %}" alt="" class="cancel-water-img">
+    <a class="cancel-button" href="/">Home</a>
+</div>
 {% endblock %}
