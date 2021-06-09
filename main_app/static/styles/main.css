@@ -544,10 +544,10 @@ size: 1em;
 .profile-card-container .profile-card .profile-card-content ul{
     position: relative;
     align-items: center;
-    left: 5px; 
+    left: -5px; 
     padding: 0.5em 1em 0 1.5em;
     font-size: 1em;
-    color: #ffff;
+    color:rgba(19, 18, 18, 0.6);
     font-weight: 300;
 
 }
@@ -564,7 +564,7 @@ size: 1em;
 .profile-card-container .profile-card .profile-card-content a {
     margin: 10px 10px 0 10px;
     position: relative;
-    left: 60px;
+    left: 75px;
     top: 28px;
     display: inline-block;
     padding: 0 10px 2px;
