@@ -15,15 +15,22 @@ Zooty Water App - User is able to subscribe and purchase Zooty Water
 - User will be able to create update, edit, and delete order for Zooty Water Product 
 - User will be able to view a detail page of the Order to Checkout 
 - User will be able to subscribe for monthly newsletter 
-- User will receive Thank you email if User opts in for newsletter 
+- User will be able to pay for order 
 - Users without Profiles will be able to view Home page and product index page but will not be able to and checkout until the user signs up for Profile. 
 ### Ice Box
-- User will be able to pay for order 
+- User will receive Thank you email if User opts in for newsletter 
 - User will be able to Recieve the order 
 - User will be able  take survey 
 - 3D Model of Bottle 
 ### Bonus 
 - Link to 3D Bottle NFT
+
+# Code Snippets
+![Screen Shot 2021-06-09 at 12 38 37 PM](https://media.git.generalassemb.ly/user/35030/files/b05db600-c920-11eb-91be-6fbf593844f5)
+![Screen Shot 2021-06-09 at 12 48 19 PM](https://media.git.generalassemb.ly/user/35030/files/fa469c00-c920-11eb-9992-963d0f0d1f63)
+
+![Screen Shot 2021-06-09 at 12 50 52 PM](https://media.git.generalassemb.ly/user/35030/files/55788e80-c921-11eb-82a0-cd2937617338)
+
 # Technical Requirements
 ## What technologies will I be using?
 ### Your app must meet the following technical requirements:
