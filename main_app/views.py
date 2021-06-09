@@ -144,7 +144,7 @@ class CreateCheckoutSessionView(View):
     model = Product
    
     def post(self, request, *args, **kwargs):
-        product_id = self.kwargs["pk"]›
+        product_id = self.kwargs["pk"]
         quantity = self.kwargs["quantity"]
         product= Product.objects.get(id=product_id)
         # order = Order.objects.get("quantity")

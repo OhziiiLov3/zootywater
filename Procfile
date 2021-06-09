@@ -1,0 +1,1 @@
+web: gunicorn zootywater_project.wsgi
