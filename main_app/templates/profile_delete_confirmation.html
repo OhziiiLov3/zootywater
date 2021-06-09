@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+{% load static %}
+<div class="delete-title">
+<h1 >Are you sure you want to Delete {{user.customer.email}}?</h1>
+<img src="{% static 'images/zootywatericon.png' %}" alt="" class="delete-water-img">
+<form action="" method="post">
+    {% csrf_token %} {{form.errors}}
+    <div class="delete-form">
+        <input class="confirm-button is-danger" type="submit" value="Delete"/>
+        <a class="button is-primary" href="{% url 'profile_detail' %}"></a>
+    </div>
+</form>
+</div>
+
+{% endblock %}

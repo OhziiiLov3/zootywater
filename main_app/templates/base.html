@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block head %} {% endblock %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+    <script src="{% static 'scripts/main.js' %}" defer></script>
+    <title>Zooty Water</title>
+</head>
+<body> 
+    <main> 
+        <section class="glass-container">
+        <nav class="navbar" role="navigation">
+            <div class="navbar_logo">
+                <img src="{% static 'images/ZWLOGO.png' %}"alt="logo" class="navbar_img" width="100px" height="100">
+                <h1 class="webtitle">Zooty Water </h1>
+                {% if user.is_authenticated %}
+            </div>
+            <h3 class="welcome">Welcome {{user.username}}</h3>
+            <div class="navbar_links">
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="{%url 'order_create' user.customer.pk %}">Order</a>
+                <a class="navbar-item" href="/profile">Profile</a>
+                <a class="navbar-item" href="{% url 'logout' %}">Logout</a>
+            </div>
+            {% else %}
+            <div class="navbar" role="navigation" >
+                <div class="navbar_links">
+                <a class="navbar-item" href="/">Home</a>
+                <a class="navbar-item" href="/about">About</a>
+                <a class="navbar-item" href="{% url 'login' %}" id="login">Log In</a>
+                <a class="navbar-item" href="{% url 'signup' %}" id="login">Sign Up</a>
+                </div>
+                {% endif %}
+            </div>
+        
+           </nav>
+    {% block content %}{% endblock %}
+    {% if user.is_authenticated %} {{form.errors}}
+        <form action="{% url 'profile_subscribe' user.customer.pk %}" method="post"  class="subscribe">
+            {% csrf_token %} {{form.errors}}
+            <div class="subscribe-form">
+                <h1>Are you Activated?</h1>
+                <p>Sign up and Subscribe for a monthly newsletter.</p>
+               
+                <div class="subscribe-info">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <input class="subscribe-button" type="submit" value="Subscribe" >
+            </div>
+        </form>
+        {% endif %}
+    </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  
+        
+</body>
+
+
+</html>

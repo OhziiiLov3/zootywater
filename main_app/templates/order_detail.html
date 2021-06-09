@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block content %}
+
+
+<div class="checkout-title">
+<h1>Confirm Order </h1>
+<p>Please confirm the information you enter is correct</p>
+</div>
+<div class="checkout-card-container">
+    <div class="checkout-card">
+        <div class="checkout-card-content">
+            <h3>{{ user.customer.name }}</h3>
+            <ul>
+            <li>Email: {{ order.email }}</li>
+            <li>Quantity: {{ order.quantity }}</li>
+            <li>Street: {{ order.street_address }}</li>
+            <li>City: {{ order.city }}</li>
+            </ul>
+            <a class="checkout-link" href="{% url 'checkout' order.pk %}">Confirm Order</a>
+            <a class="checkout-update" href="{% url 'order_update' order.pk %}">Update Order</a>
+        </div>
+    </div>
+</div>
+<a class="order-delete-button" href="{% url 'order_delete' order.pk %}">Delete Order</a>
+
+
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block content %}
+{% load static %}
+
+<div class="order-title">
+    <h1>Order Today!</h1>
+</div>
+<div class="order-card-container">
+    <div class="order-card">
+        <div class="order-card-content">
+            <h2>{{ user.customer.name }}</h2>
+            <form class="order-form" method="post" >
+            {% csrf_token %} {{form.as_p}} {{form.errors}}
+            <input class="order-button" type="submit" value="Order" />
+            </form>
+        </div>
+    </div>
+    <img src="{% static 'images/zootywatericon.png' %}" alt="" class="order-water-img">
+    <img class="order-bottle" src="{% static 'images/Zootywater-0.png' %}" alt="Zooty Water">
+    <h3 class="price">Price $5.00</h3>
+</div>
+
+{% endblock %}

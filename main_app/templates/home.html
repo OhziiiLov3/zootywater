@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="home-title">
+<h1>Solarized Structured Alkaline Water</h1>
+<p>Zooty Water is natural living alkaline water</p>
+<p>PH Level 9-9.5</p>
+<p>Mineral Boost</p>
+<p>Activated Ingredients</p>
+<ul>
+<li>Pure Energy</li>
+<li>Health</li>
+<li>Wealth</li>
+</ul>
+<p>Water is Memory. Remember Who U Are</p>
+<h4>Contact Zooty Water</h4>
+<p>Zooty World, LLC</p>
+<p>Email: Activatedoh@zootyworld.com</p>
+<p>Address: 123 Zooty Way, Ave, Oakland CA</p>
+</div>
+{% if user.is_authenticated %}
+<a class="order-link" href="{% url 'order_create' user.customer.pk %}">Order</a>
+<img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
+<img  class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
+{% else %}
+<a class="order-link" href="{% url 'signup' %}">Order</a>
+<img src="{% static 'images/zootywatericon.png' %}" alt="" class="home-water-img">
+<img class="home-bottle" src="https://media.giphy.com/media/4RgNp8iCLmEjF9Dfsy/giphy.gif" alt="Zooty Water">
+{% endif %}
+{% endblock %}

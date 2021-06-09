@@ -1,0 +1,42 @@
+{% extends 'base.html' %}  {% block content %}
+
+
+<div class="About-title">
+    <h1>Learn More</h1>
+</div>
+<div class="card-container">
+    <div class="card">
+        <h1>Pure Energy</h1>
+        <div class="card-content">
+            <h3>Pure Energy</h3>
+            <p>Solarized Structured Alkaline Water activated and supercharged. Our all natural filtering system gives
+            you the clean and crisp water you love but with a sweeter taste! </p>
+
+               
+            <a href="/">Activate</a>
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Health</h1>
+        <div class="card-content">
+            
+            <h3>Heatlh</h3>
+        <p>Our water is thinner than most water which allows the molecules to transport nutrients to you cells faster! Perfect for recovering, activating, and sustaining your daliy energy! </p>
+            <a href="{% url 'signup' %}"">Activate</a>
+        
+        </div>
+    </div>
+    <div class="card">
+        <h1>Wealth</h1>
+        <div class="card-content">
+          
+            <h3>Wealth</h3>
+            <p>Here at Zooty Water we believe Health is Wealth! Zooty Water NFT Coming Soon! </p>
+    
+            <a href="/">Activate</a>
+           
+        </div>
+    </div>
+</div>
+{% endblock %}
