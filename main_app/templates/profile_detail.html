@@ -27,6 +27,7 @@
             <a class="update-link" href="{% url 'profile_update' profile.pk%}">update</a>
         </div>
     </div>
+    <a class="delete-button" href="{% url 'profile_delete' user.pk  %}">Delete</a>
     <div class="water-logo">
         <img src="{% static 'images/zootywatericon.png' %}" alt="" class="water-img">
     </div>
@@ -34,7 +35,6 @@
     <source src="{% static 'video/THE ZOOTY WAY.mp4' %}" type="video/mp4" />
 </video>
 </div>
-<a class="delete-button" href="{% url 'profile_delete' profile.pk %}">Delete Profile</a>
 
    
     {% endblock %}

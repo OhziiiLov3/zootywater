@@ -1,12 +1,14 @@
 {% extends 'base.html' %} {% block content %}
-
-<h1 class="title">Are you sure you want to Delete your Order {{order.email}}?</h1>
+{% load static %}
+<div class="delete-title">
+<h1 >Are you sure you want to Delete your Order ? {{user.email}}?</h1>
+<img src="{% static 'images/zootywatericon.png' %}" alt="" class="delete-water-img">
 <form action="" method="post">
-    {% csrf_token %}
+    {% csrf_token %} {{form.errors}}
     <div class="delete-form">
         <input class="confirm-button is-danger" type="submit" value="Delete" />
         <a class="button is-primary" href="{% url 'order_create' order.pk %}"></a>
     </div>
 </form>
-
+</div>
 {% endblock %}

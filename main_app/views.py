@@ -14,6 +14,7 @@ from django.views.generic import DetailView
 import stripe
 from django.conf import settings 
 from django.http import JsonResponse
+from django.contrib.auth.models import User
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY 
@@ -59,7 +60,7 @@ class CustomerSubscribeUpdate(UpdateView):
     success_url = "/profile/"
 
 class CustomerProfileDelete(DeleteView):
-    model = Customer
+    model = User
     template_name = "profile_delete_confirmation.html"
     success_url = "/accounts/logout"
     
