@@ -581,6 +581,11 @@ size: 1em;
     font-size: .8em; 
 
 }
+.profile-card-container .profile-card .profile-card-content a:hover {
+    color: #E090E0;
+    font-weight: 500;
+
+}
 
 
 
