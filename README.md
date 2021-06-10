@@ -1,6 +1,16 @@
 # Zootywater_app 
 
 ### Ohz- SEI Capstone Project 
+## [Zooty Water](https://zootywaterapp.herokuapp.com/) 
+
+### Description 
+This is an appilcation built and designed to support Zooty Water, a Solarized Structured Alkaline Water company. The goal of the this project was to create a platform to connect customers to Zooty Water. The app allows the user to create, update, and delete a an account as well as an order. The goal is for the user to learn more about the product and to purchase it. On the back end, the appilcation stores the customers information in a database. Features include glass theme design, 3D Animations, 3D Model of Bottle, Stripe Payment Api, and full Crud between two models. 
+
+### Technologies
+- Backend:Django(Python)
+- Frontend: JavaScript
+- Stripe Api 
+
 # Big Goals
 ## What should I focus on?
 - Discover or invent an idea, preferably one with some group of users that would jump at the chance to really use your product.
@@ -66,11 +76,13 @@ Build a full-stack application by making your own back-end and your own front-en
 - Glass Cards for About and Community Pages 
 ### Features that can be saved for a later iteration. 
 - User will be able to place order and receive order 
-- 3D Model of Bottle that rotates for Home Page(Work around 3D animation of Jpeg)
 - Create a link to NFT of 3D model
+- Daliy Water intake tracker
+- Alkaline PH Level Test 
+- Survey 
 ### Create 3-5 major milestones with dates outlining when you expect essential features will be done.
 - Glass Theme CSS Design 
 - Functional animated Glass Theme Cards
 - User will be able to create, update, edit, and delete Profile 
 - User will be able to add Product to cart to place order 
-- User will receive a welcome email if User opts in for subscribtion 
+- User opts in for subscribtion 
