@@ -1,1 +1,1 @@
-web: gunicorn zootywater_project.wsgi --log-file -
+web: gunicorn zootywater_project.wsgi
