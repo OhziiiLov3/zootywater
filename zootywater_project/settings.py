@@ -10,8 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import django_heroku
 from pathlib import Path
-import django_on_heroku
+
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -145,4 +146,5 @@ LOGOUT_REDIRECT_URL = '/'
 if os.getcwd() == '/app':
     DEBUG = False
 
-django_on_heroku.settings(locals())
+
+django_heroku.settings(locals())
