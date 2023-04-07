@@ -10,7 +10,7 @@ class Customer(models.Model):
 
     name = models.CharField(max_length=150)
     email = models.CharField(max_length=200)
-    join_date = models.DateField(default=date.today())
+    join_date = models.DateTimeField(default=date.today())
     is_subscribe = models.BooleanField(default=False)
     user = models.OneToOneField(User,on_delete=CASCADE)
     
