@@ -131,7 +131,7 @@ STRIPE_PUBLIC_KEY = "pk_test_51IzPYfKoasaVGFbXWCjSV6Xc9LY8HFVHkES2626PqcikMGWKYg
 STRIPE_SECRET_KEY = "sk_test_51IzPYfKoasaVGFbXP0tLhGhDcPSURtXYE343ZsHNQZNe1EuwMHcSIKMmeIQlkHA0SHejyfLnHxNCyiY6VJQSZyUd00vUA2YaoE"
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
 
 
 # Default primary key field type
