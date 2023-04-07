@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['127.0.0.0', 'localhost', 'zootywaterapp.herokuapp.com']
+ALLOWED_HOSTS = ['zootywaterapp.herokuapp.com']
 
 
 # Application definition
