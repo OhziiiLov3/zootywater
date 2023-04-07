@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zootywaterapp']
 
 
 # Application definition
@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fly',
     'main_app',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -127,7 +129,7 @@ STRIPE_PUBLIC_KEY = "pk_test_51IzPYfKoasaVGFbXWCjSV6Xc9LY8HFVHkES2626PqcikMGWKYg
 STRIPE_SECRET_KEY = "sk_test_51IzPYfKoasaVGFbXP0tLhGhDcPSURtXYE343ZsHNQZNe1EuwMHcSIKMmeIQlkHA0SHejyfLnHxNCyiY6VJQSZyUd00vUA2YaoE"
 
 
-
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 # Default primary key field type
