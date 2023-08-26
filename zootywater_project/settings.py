@@ -83,10 +83,20 @@ WSGI_APPLICATION = 'zootywater_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'zootywater',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'zootywater',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'td8QwbeHVdDxkWm06pLJ',
+        'HOST': 'containers-us-west-135.railway.app',
+        'PORT': '5759',
     }
 }
 
