@@ -30,10 +30,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True 
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = ['https://zootywater-production.up.railway.app/']
+ALLOWED_HOSTS = ['127.0.0.0', 'localhost', 'zootywater-production.up.railway.app']
 
 
 # Application definition
