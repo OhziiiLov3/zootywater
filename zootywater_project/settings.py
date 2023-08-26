@@ -34,9 +34,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = [
+# CSRF_TRUSTED_ORIGINS = [
    
-]
+# ]
 CORS_ALLOWED_ORIGINS = [
     'https://zootywater-production.up.railway.app',
     "http://localhost:3000",  # Example: for local development
