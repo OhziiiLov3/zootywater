@@ -35,10 +35,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.0', 'localhost',
                  'https://zootywater-production.up.railway.app/']
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://zootywater-production.up.railway.app/',
 
-]
 
 # Application definition
 
