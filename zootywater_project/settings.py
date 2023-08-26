@@ -34,6 +34,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.0', 'localhost', 'zootywater-production.up.railway.app']
 
+CORS_ALLOWED_ORIGINS = [
+    'zootywater-production.up.railway.app',
+    "http://localhost:3000",  # Example: for local development
+]
+
+# Allow cookies to be sent with cross-origin requests
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -49,6 +56,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
