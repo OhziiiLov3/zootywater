@@ -51,9 +51,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fly',
     'main_app',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
