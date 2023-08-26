@@ -32,8 +32,7 @@ SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['127.0.0.0', 'localhost']
-
+ALLOWED_HOSTS = ['127.0.0.0', 'localhost','zootywaterapp.herokuapp.com']
 
 
 # Application definition
@@ -158,8 +157,8 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 
-if os.getcwd() == '/app':
-    DEBUG = False
+# if os.getcwd() == '/app':
+#     DEBUG = False
 
 
 django_heroku.settings(locals())
