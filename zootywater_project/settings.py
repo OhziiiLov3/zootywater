@@ -33,6 +33,7 @@ SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*
 DEBUG = False
 
 ALLOWED_HOSTS = []
+CSRF_TRUSTED_ORIGINS = ['https://zootywater-production.up.railway.app/']
 
 
 # Application definition
