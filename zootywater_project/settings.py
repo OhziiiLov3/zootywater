@@ -34,11 +34,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Example: for local development
-    "https://zootywater-production.up.railway.app",  # Add this line
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",  # Example: for local development
+#       # Add this line
+# ]
 
+CSRF_TRUSTED_ORIGINS = ['"https://zootywater-production.up.railway.app",']
 
 # Application definition
 
@@ -51,11 +52,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fly',
     'main_app',
-    'corsheaders'
+   
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
