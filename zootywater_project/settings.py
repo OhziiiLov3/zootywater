@@ -35,7 +35,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CSRF_TRUSTED_ORIGINS = [
-    'zootywater-production.up.railway.app',
+    'https://zootywater-production.up.railway.app',
 ]
 
 # Allow cookies to be sent with cross-origin requests
