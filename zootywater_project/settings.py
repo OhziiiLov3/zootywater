@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fly',
     'main_app',
-    "corsheaders"
 ]
 
 MIDDLEWARE = [
