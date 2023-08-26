@@ -32,16 +32,13 @@ SECRET_KEY = 'django-insecure-)p04en0vnv6uczvfsmwmzg-7_8f@64%co0x9i3#7nfovjd$tg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.0', 'localhost',
+                 'https://zootywater-production.up.railway.app/']
 
-# CSRF_TRUSTED_ORIGINS = [
-   
-# ]
-CORS_ALLOWED_ORIGINS = [
-    'https://zootywater-production.up.railway.app',
-    "http://localhost:3000",  # Example: for local development
+CSRF_TRUSTED_ORIGINS = [
+    'https://zootywater-production.up.railway.app/',
+
 ]
-
 
 # Application definition
 
@@ -53,12 +50,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fly',
-    'corsheaders',
     'main_app',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
