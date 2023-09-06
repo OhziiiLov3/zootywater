@@ -106,7 +106,7 @@ WSGI_APPLICATION = 'zootywater_project.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgresql://postgres:postgres@localhost:5432/zootywater_project',
+        default='postgresql://postgres:postgres@localhost:5432/zootywater',
         conn_max_age=600
     )
 }
