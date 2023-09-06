@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-pip install --upgrade pip
-pip install django
-pip install -r requirements.txt && python manage.py migrate --no-input
-python manage.py collectstatic --no-input
+
+pip3 install django
+pip3 install -r requirements.txt && python3 manage.py migrate --no-input
+python3 manage.py collectstatic --no-input
