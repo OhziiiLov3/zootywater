@@ -1,0 +1,1665 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right top, #35aeeba2, #1327dfce);
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+/* Base */
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ a{
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: black;
+ }
+.glass-container{
+    min-height:80vh; 
+    min-width: 1000px;
+    max-height:80vh;
+    top: -15px;
+    width: 1300px;
+    box-shadow: 0 0 1rem 0 rgba(0 0 0 .7);
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.06)
+    );
+    border-radius: 2rem;
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+    z-index: 5;
+    border: .5px solid #3799e97e;
+  
+
+    
+}
+.glass-container:before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    margin: -20px;
+    z-index: -3;
+ 
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 90%;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: large; 
+}
+
+.navbar_links{
+    margin: 0 15px ;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: inherit;
+  
+   
+}
+
+.navbar-item:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
+.navbar_logo {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbar_img {
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7)
+
+}
+
+.welcome{
+    padding: 8px 12px;
+    margin: auto;
+    left: 350px;
+    top: 540px; 
+    position: relative;
+    text-align: center;
+    color:rgba(19, 18, 18, 0.6);
+    font-size: 15px;
+}
+
+.webtitle {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 30px;
+    font-size: 35px;
+    justify-content: flex-start;
+    margin: 0 10px 0 10px;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Squada One', cursive
+    
+  
+}
+.webtitle  h1 {
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Squada One', cursive
+    
+  
+}
+
+.navbar-item{
+    align-items: center;
+    display: flex;
+    padding: 8px 12px;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    position: relative;
+}
+
+.circle1,
+.circle2{
+   background: white; 
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, .6),
+        rgba(255,255,255, .1)
+    );
+    height: 14rem;
+    width: 14rem;
+    position: absolute;
+    z-index: -50;
+    backdrop-filter: blur(50rem);
+    border-radius: 50%;
+    box-shadow: 0 0 1rem 0 rgba(0 0 0 .9);
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+
+    
+}
+.circle1{
+    top: 1%;
+    right: 11%;  
+   
+    
+}
+.circle2{
+    bottom: 5%; 
+    left: 10%;
+    /* height: 12.5rem;
+    width: 12.5rem; */
+
+}
+
+/* Home Page */
+
+.home-title h1{ 
+    left: 150px;
+    top: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+.home-title h4{ 
+    left: 150px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1.5em;
+}
+.home-title p{ 
+    left: 180px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 800;
+    font-size: 1.1em;
+}
+.home-title ul{ 
+    left: 230px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.fab{
+color:rgba(255, 255, 255, 0.6);
+size: 1em;
+
+}
+
+.fab:hover{
+    color: #E090E0;
+    font-weight: 500;
+    
+}
+
+.home-bottle{
+    position: relative;
+    left: 650px;
+    bottom: 300px;
+    height: 300px;
+}
+
+.home-water-img {
+    right: 220px;
+    top: 60px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+}
+
+.order-link{
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 780px;
+    bottom: 250px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .9em; 
+}
+
+.order-link:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+.homevideo{
+    right: 700px;
+    top: 60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: 400px;
+    height: 250px;
+    z-index: 10;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 5%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* About Page And Glass Cards */
+
+.card-container .About-title h1{
+    margin-top: -250px;
+    margin-left: 200px; 
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+    
+}
+
+.card-container{ 
+    height: 450px;
+    position: relative;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+.card-container .card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    top: -40px;
+    right: 160px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15px;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+
+/* Before */
+
+.card-container .card  h1{
+    position: absolute;
+    right: 150px;
+    text-align: center;
+    align-items: center;
+    transform: translate(100px);
+    opacity: 1;
+    transition: .5s;
+    color: rgba(255,255,255, 0.7);
+    font-size: 3em;
+
+}
+
+
+.card-container .card:hover  h1{
+    /* transform: translateX(-100%) ease-in; */
+    opacity: 0;
+    /* transition: transform .3s ; */
+    
+    
+
+}
+
+.card-container .card:hover h1{
+    font-size: 2em;
+    color: rgba(255,255,255, 0.7);
+
+}
+
+
+
+
+.card-container .card .card-content{
+    padding: 10px;
+    position: absolute;
+    left: 30px;
+    text-align: center;
+    transform: translate(100px) ease-in;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.card-container .card:hover .card-content{
+    transform: translate(0px);
+    opacity: 1;
+}
+
+.card-container .card:hover .card-content h3{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    align-items: center;
+    font-size: 1.5em;
+    color:rgba(19, 18, 18, 0.6);
+    
+
+}
+.card-container .card:hover .card-content p{
+    margin-top: 15px;
+    position: relative;
+    right: 10px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 500;
+    text-align: center;
+
+}
+.card-container .card:hover .card-content ul{
+    margin-top: 15px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;
+
+}
+.card-container .card .card-content  h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.7);
+    
+
+}
+
+.card-container .card .card-content a {
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+    right: 10px;
+    margin-top: 35px;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2);
+
+}
+
+/* User Profile Card */
+
+ .About-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.profile-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.profile-card-container .profile-card{
+    position: relative;
+    height: 21rem;
+    width: 21rem;
+    margin-top: -20px;
+    margin-left: 380px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 50%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+
+
+ .water-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.water-img {
+    right: 165px;
+    top: -100px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
+
+/* Card for Profile Page */
+
+.profile-card-container .profile-card .profile-card-content{
+    transform: translate(0px);
+    opacity: 1;
+
+}
+
+.profile-card-container .profile-card .profile-card-content h3{
+    position: fixed;
+    align-items: center;
+    top: -20px;
+    left: 80px;
+    font-size: 1.3em;
+    color: rgba(255,255,255, 0.7)
+    
+
+}
+
+.profile-card-container .profile-card .profile-card-content ul{
+    position: relative;
+    align-items: center;
+    left: -5px; 
+    padding: 0.5em 1em 0 1.5em;
+    font-size: 1em;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 300;
+
+}
+.profile-card-container .profile-card .profile-card-content  h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.7);
+    
+
+}
+
+.profile-card-container .profile-card .profile-card-content a {
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 75px;
+    top: 28px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em; 
+
+}
+.profile-card-container .profile-card .profile-card-content a:hover {
+    color: #E090E0;
+    font-weight: 500;
+
+}
+
+
+
+.subscribe{
+    margin-left: 150px; 
+    bottom: 50px;
+    align-items: center;
+    justify-content: flex;
+    color:white;
+    color:rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+    font-size: .9em; 
+    position: absolute;
+    z-index:100;
+}
+
+.subscribe p{
+    color: rgba(19, 18, 18, 0.6);
+}
+.subscribe-button{
+    margin: 10px 10px 0 10px;
+    position: relative;
+    display: inline-block;
+    padding: 0 1.5em 0 1.5em;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+}
+ .subscribe-info input {
+    padding: 0 10px 2px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+ }
+
+ .subscribe-info{
+     position: relative;
+     z-index: 20;
+ }
+
+
+ #bell{
+    position: relative;
+    size: 100px;
+    margin-left: 70px;
+    left: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    color:white;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    box-sizing: inherit;
+    
+}
+
+
+
+
+#subscribe-bell{
+    position: relative;
+    size: 100px;
+    margin-left: 65px;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    color:white;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    box-sizing: inherit;
+    
+}
+
+
+
+
+.update-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1.5em 0 1.5em;
+    font-weight: 500;
+
+    
+}
+
+.update-button{
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+
+
+.delete-button  {
+    color: red;
+    padding: 0 1.8em 0 1.5em;
+    top: 300px;
+    left: 285px;
+    position: relative;
+    width: 70px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em
+} 
+/* 
+ .delete-button a {
+    color: red;
+    text-decoration: none;
+    padding: 0 1em 0 1.5em;
+    z-index: 50;
+    padding: 0 1.5em 0 1.5em;
+    
+    
+} */
+
+
+.profilevideo{
+    left: -30px;
+    bottom: 280px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    z-index: 10;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.delete-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1.5em 0 1.5em;
+    font-weight: 500;
+
+    
+}
+
+.confirm-button{
+    position: relative;
+    top: 80px;
+    right: 140px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color:red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    
+}
+
+.delete-title{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    left: 500px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15px;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.delete-title h1{
+    position: relative;
+    align-items: center;
+    left: 150px;
+    bottom: 20px;
+    justify-content: flex;
+    color: white;
+    color:rgba(19, 18, 18, 0.7);
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.delete-water-img {
+    right: 10px;
+    bottom: 120px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
+
+
+
+
+/* Log in and Sign Up  */
+
+
+.signup-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.signup-card-container .signup-card{
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    right: 160px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15px;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.3);
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+
+.signup-title h2 {
+    top: -20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.signup-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1.5em 0 1.5em;
+    font-weight: 500;
+    
+}
+
+.signup-form{
+    margin-bottom: 220px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.4);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+   
+    
+}
+
+.signup-button{
+    margin: 10px 10px 0 10px;
+    position: relative;
+    bottom: 5px;
+    display: inline-block;
+    padding: 0 1.5em 0 1.5em;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* update card Page  */
+
+ .update-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.update-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.update-card-container .update-card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: -20px;
+    left: 250px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 10%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.update-card-container .update-card .update-card-content h3{
+    position: relative;
+    align-items: center;
+    bottom: 30px;
+    left: 30px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: rgba(255,255,255, 0.7);
+    font-weight: 300;
+
+}
+
+.update-card-container .update-card .update-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;;
+   
+
+}
+
+.update-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 1em 1em;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+/* ORDER CARD */
+
+.order-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.order-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.order-card-container .order-card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: -20px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 10%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.order-card-container .order-card .order-card-content h2{
+    position: relative;
+    align-items: center;
+    top: -2px;
+    left: 20px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1.2em;
+
+}
+
+.order-card-container .order-card .order-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;;
+   
+
+}
+
+.order-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 0 1em;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.order-bottle{
+    position: relative;
+    left: 130px;
+    top: -10px;
+    height: 350px;
+  
+}
+
+
+.order-button{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+
+.order-water-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.order-water-img {
+    right: 300px;
+    top: -60px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
+/* Update Order */
+.update-order-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.update-order-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.update-order-card-container .update-order-card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    top: -20px;
+    left:250px;
+    margin-left: 250px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 10%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.update-order-card-container .update-order-card .update-order-card-content h2{
+    position: relative;
+    align-items: center;
+    top: -2px;
+    left: 20px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1.2em;
+
+}
+
+.update-order-card-container .update-order-card .update-order-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;;
+   
+
+}
+
+.update-order-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 0 1em;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+
+.update-order-button{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+
+
+
+
+
+/* CHECKOUT PAGE  */
+
+.checkout-title h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.checkout-title p{ 
+    left: 450px;
+    bottom: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.checkout-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.checkout-card-container .checkout-card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    top: -50px;
+    left: 450px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15px;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(3px);
+ 
+}
+
+.checkout-card-container .checkout-card .checkout-card-content ul{
+    position: relative;
+    align-items: center;
+    left: 15px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgba(19, 18, 18, 0.7);
+    font-weight: 300;
+
+}
+.checkout-card-container .checkout-card .checkout-card-content h3{
+   position: relative;
+    align-items: center;
+    top: -20px;
+    left: 20px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 30px;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 1.5em;
+
+}
+
+.checkout-card-container .checkout-card .checkout-card-content {
+    position: relative;
+    align-items: center;
+    top: -80px;
+    left: -10px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #ffff;
+    font-weight: 300;
+   
+}
+
+
+.checkout-button{
+    position: relative;
+    top: 20px;
+    left: 80px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+.checkout-link {
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 50px;
+    top: 28px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em;
+}
+
+.checkout-link:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
+.checkout-update  {
+    margin: 10px 10px 0 10px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em;
+} 
+
+.checkout-update:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
+.order-delete-button  {
+    color: red;
+    bottom: 20px;
+    left: 1000px;
+    margin: 10px 10px 0 10px;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px 2px;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em
+} 
+
+.bottle{
+    position: relative;
+    left: 860px;
+    bottom: 250px;
+    height: 300px;
+    width: 150px;
+}
+.checkout-bottle{
+    position: relative;
+    height: 200px;
+    width: 100px;
+}
+
+.price{
+    left: 650px;
+    top: -430px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+
+}
+
+/* Pay Checkout */
+
+.pay h1{ 
+    left: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.pay-card-container{ 
+    padding: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.pay-card-container .pay-card{
+    position: relative;
+    width: 22em;
+    height: 22em;
+    left: 450px;
+    top: -20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 50%;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+ 
+}
+.pay-card-content h3{
+    position: relative;
+    align-items: center;
+    top: 20px;
+    color:rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    font-size: 1em;
+
+}
+
+.pay-card-container .pay-card .pay-card-content {
+    position: relative;
+    align-items: center;
+    top: -70px;
+    padding: 0.5em 1em 0 1.5em;
+    margin-top: 80px;
+    font-size: 1em;
+    color:rgba(19, 18, 18, 0.6);
+    font-weight: 300;;
+   
+
+}
+
+.pay-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 0 1em;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.pay-bottle{
+    position: relative;
+    height: 200px;
+    top:15px;
+    right: 10px;
+
+  
+}
+
+
+.pay-title{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.7);
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 25;
+    
+}
+
+.pay-water-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.pay-water-img {
+    right: 300px;
+    top: -60px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
+.pay-button  {
+    margin: 10px 10px 0 10px;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    padding: 0 10px 2px;
+    color: #000;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    font-family: 'Kanit', sans-serif;
+    font-size: .8em;
+} 
+
+.pay-button:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
+/* CANCEL PAGE */
+
+.cancel{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    left: 500px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0 .5);
+    border-radius: 15px;
+    background: rgba(255,255,255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.cancel p{
+    position: relative;
+    align-items: center;
+    left: 120px;
+    bottom: 10px;
+    justify-content: flex;
+    color: white;
+    color:rgba(19, 18, 18, 0.7);
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.cancel-water-img {
+    right: 50px;
+    bottom: 110px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border:rgba(0 0 0 .7);
+    z-index: 50;
+
+}
+
+.cancel-button{
+    position: relative;
+    top: 80px;
+    right: 155px;
+    padding: 0 1.8em 0 1.5em;
+    font-family: 'Kanit', sans-serif;
+    background: #ffff;
+    background: rgba(255,255,255, 0.5);
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5 px 15px rgba(0,0,0,0.2); 
+    border-top: 1px solid rgba(255,255,255, 0.7);
+    border-left: 1px solid rgba(255,255,255, 0.7);
+    backdrop-filter: blur(5px);
+    
+}
+
+.cancel-button:hover{
+    color: #E090E0;
+    font-weight: 500;
+}
+
+.login-title{
+    top: -20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex;
+    color: white;
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.login-form{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 1em 0 1em;
+    font-weight: 300;
+    font-size: .8em; 
+}
