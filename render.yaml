@@ -7,7 +7,7 @@ services:
   - type: web
     name: zootywater_project
     runtime: python
-    buildCommand: "./build.sh"
+    buildCommand: pip3 install -r requirements.txt && python manage.py migrate --no-input
     startCommand: "gunicorn zootywater_project.wsgi:application"
     envVars:
       - key: DATABASE_URL
