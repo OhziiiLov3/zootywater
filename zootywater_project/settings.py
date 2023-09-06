@@ -97,11 +97,21 @@ DATABASES = {
         'NAME': 'zootywater',
     }
 }
-
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         # Feel free to alter this value to suit your needs.
+#         default='postgresql://postgres:postgres@localhost:5432/zootywater_project',
+#         conn_max_age=600
+#     )
+# }
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 database_url = os.environ.get("DATABASE_URL")
 DATABASES["default"] = dj_database_url.parse(database_url) 
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+
+
 
 
 # DATABASES = {
